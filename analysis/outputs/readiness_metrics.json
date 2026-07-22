@@ -1,0 +1,16 @@
+{
+  "as_of_date": "2026-07-22",
+  "source_count": 96,
+  "asset_count": 1450,
+  "retrieval_candidate_assets": 1067,
+  "included_retrieval_assets": 815,
+  "ai_ready_data_quality_pass_rate": 0.077,
+  "freshness_sla_compliance": 0.301,
+  "metadata_business_description_completeness": 0.641,
+  "ownership_lineage_documentation_coverage": 0.652,
+  "governed_access_classification_retention_compliance": 0.37,
+  "semantic_labeling_categorization_coverage": 0.95,
+  "risk_decision_signal_actionability": 0.916,
+  "open_remediation_issues": 767,
+  "p1_governance_issues": 323
+}

@@ -1,0 +1,97 @@
+source_id,source_name,domain,source_type,approved_for_ai,criticality,business_owner,technical_owner,expected_refresh_days,max_allowed_classification,retention_policy_days,source_contract_status,ai_use_case
+SRC-001,Identity Verification Warehouse Table 01,Identity Verification,warehouse_table,False,medium,Platform Governance,Risk ETL,1,regulated_sensitive,1825,active,compliance_research_assistant
+SRC-002,Compliance Policy Document Repository 02,Compliance Policy,document_repository,False,medium,Fraud Analytics,Search Platform,14,confidential,1095,active,identity_resolution_support
+SRC-003,Compliance Policy Warehouse Table 03,Compliance Policy,warehouse_table,True,high,Platform Governance,Risk ETL,30,regulated_sensitive,730,active,compliance_research_assistant
+SRC-004,Sanctions Screening Source Api 04,Sanctions Screening,source_api,True,medium,Risk Data Stewardship,Knowledge Systems,30,confidential,730,active,identity_resolution_support
+SRC-005,Sanctions Screening Warehouse Table 05,Sanctions Screening,warehouse_table,True,medium,Risk Data Stewardship,Risk ETL,3,restricted,730,pending_review,compliance_research_assistant
+SRC-006,Sanctions Screening Document Repository 06,Sanctions Screening,document_repository,True,medium,Platform Governance,Knowledge Systems,1,confidential,1825,active,risk_assessment_retrieval
+SRC-007,Sanctions Screening Curated Knowledge Base 07,Sanctions Screening,curated_knowledge_base,True,medium,Platform Governance,Search Platform,1,public_internal,730,active,compliance_research_assistant
+SRC-008,Identity Verification Warehouse Table 08,Identity Verification,warehouse_table,True,medium,Platform Governance,Search Platform,3,public_internal,730,active,fraud_triage_copilot
+SRC-009,Customer Risk Notes Document Repository 09,Customer Risk Notes,document_repository,True,high,Customer Operations,Data Platform,3,restricted,1825,active,fraud_triage_copilot
+SRC-010,Sanctions Screening Curated Knowledge Base 10,Sanctions Screening,curated_knowledge_base,True,high,Fraud Analytics,Risk ETL,1,restricted,365,active,fraud_triage_copilot
+SRC-011,Customer Risk Notes Curated Knowledge Base 11,Customer Risk Notes,curated_knowledge_base,True,high,Risk Data Stewardship,Risk ETL,3,restricted,365,active,identity_resolution_support
+SRC-012,Business Registry Case Management Export 12,Business Registry,case_management_export,True,high,Customer Operations,Search Platform,30,restricted,730,active,compliance_research_assistant
+SRC-013,Identity Verification Case Management Export 13,Identity Verification,case_management_export,True,high,Risk Data Stewardship,Risk ETL,3,restricted,1825,active,risk_assessment_retrieval
+SRC-014,Sanctions Screening Warehouse Table 14,Sanctions Screening,warehouse_table,True,medium,Platform Governance,Knowledge Systems,7,public_internal,365,active,fraud_triage_copilot
+SRC-015,Fraud Signals Source Api 15,Fraud Signals,source_api,True,medium,Identity Products,Knowledge Systems,1,regulated_sensitive,730,active,fraud_triage_copilot
+SRC-016,Business Registry Case Management Export 16,Business Registry,case_management_export,True,medium,Risk Data Stewardship,Risk ETL,1,confidential,2555,active,fraud_triage_copilot
+SRC-017,Device Intelligence Document Repository 17,Device Intelligence,document_repository,True,medium,Fraud Analytics,Search Platform,3,public_internal,1825,active,customer_risk_context
+SRC-018,Business Registry Source Api 18,Business Registry,source_api,True,high,Compliance Operations,Knowledge Systems,7,restricted,365,pending_review,compliance_research_assistant
+SRC-019,Customer Risk Notes Source Api 19,Customer Risk Notes,source_api,True,high,Identity Products,Knowledge Systems,14,restricted,2555,active,identity_resolution_support
+SRC-020,Device Intelligence Document Repository 20,Device Intelligence,document_repository,False,high,Compliance Operations,Knowledge Systems,1,confidential,1825,active,customer_risk_context
+SRC-021,Compliance Policy Case Management Export 21,Compliance Policy,case_management_export,True,high,Customer Operations,Search Platform,14,restricted,365,active,identity_resolution_support
+SRC-022,Sanctions Screening Case Management Export 22,Sanctions Screening,case_management_export,True,high,Identity Products,Risk ETL,14,public_internal,1095,pending_review,risk_assessment_retrieval
+SRC-023,Identity Verification Document Repository 23,Identity Verification,document_repository,True,low,Identity Products,Knowledge Systems,7,public_internal,730,active,risk_assessment_retrieval
+SRC-024,Identity Verification Source Api 24,Identity Verification,source_api,True,medium,Platform Governance,Knowledge Systems,7,confidential,1095,active,customer_risk_context
+SRC-025,Compliance Policy Source Api 25,Compliance Policy,source_api,False,high,Risk Data Stewardship,Risk ETL,3,confidential,2555,active,compliance_research_assistant
+SRC-026,Customer Risk Notes Source Api 26,Customer Risk Notes,source_api,True,medium,Customer Operations,Risk ETL,1,public_internal,2555,active,fraud_triage_copilot
+SRC-027,Fraud Signals Curated Knowledge Base 27,Fraud Signals,curated_knowledge_base,True,medium,Customer Operations,Search Platform,1,public_internal,1825,active,customer_risk_context
+SRC-028,Business Registry Warehouse Table 28,Business Registry,warehouse_table,False,medium,Compliance Operations,Knowledge Systems,3,confidential,1095,pending_review,fraud_triage_copilot
+SRC-029,Business Registry Document Repository 29,Business Registry,document_repository,True,medium,Fraud Analytics,Knowledge Systems,14,public_internal,1095,active,risk_assessment_retrieval
+SRC-030,Fraud Signals Document Repository 30,Fraud Signals,document_repository,True,low,Platform Governance,Risk ETL,1,confidential,365,active,risk_assessment_retrieval
+SRC-031,Case Operations Source Api 31,Case Operations,source_api,True,medium,Risk Data Stewardship,Knowledge Systems,7,confidential,1095,pending_review,identity_resolution_support
+SRC-032,Compliance Policy Source Api 32,Compliance Policy,source_api,True,high,Customer Operations,Knowledge Systems,3,restricted,365,active,fraud_triage_copilot
+SRC-033,Customer Risk Notes Source Api 33,Customer Risk Notes,source_api,True,high,Compliance Operations,Knowledge Systems,30,public_internal,2555,deprecated,customer_risk_context
+SRC-034,Business Registry Curated Knowledge Base 34,Business Registry,curated_knowledge_base,True,medium,Platform Governance,Search Platform,1,confidential,1825,active,fraud_triage_copilot
+SRC-035,Compliance Policy Warehouse Table 35,Compliance Policy,warehouse_table,True,high,Fraud Analytics,Risk ETL,7,confidential,730,active,identity_resolution_support
+SRC-036,Case Operations Document Repository 36,Case Operations,document_repository,True,high,Identity Products,Knowledge Systems,30,regulated_sensitive,730,active,fraud_triage_copilot
+SRC-037,Customer Risk Notes Warehouse Table 37,Customer Risk Notes,warehouse_table,True,medium,Customer Operations,Data Platform,7,confidential,730,active,compliance_research_assistant
+SRC-038,Device Intelligence Source Api 38,Device Intelligence,source_api,True,high,Customer Operations,Risk ETL,7,public_internal,365,deprecated,customer_risk_context
+SRC-039,Fraud Signals Warehouse Table 39,Fraud Signals,warehouse_table,True,medium,Platform Governance,Risk ETL,30,confidential,365,active,fraud_triage_copilot
+SRC-040,Fraud Signals Warehouse Table 40,Fraud Signals,warehouse_table,True,medium,Identity Products,Knowledge Systems,7,restricted,1095,active,compliance_research_assistant
+SRC-041,Fraud Signals Source Api 41,Fraud Signals,source_api,True,high,Customer Operations,Knowledge Systems,7,confidential,1095,active,compliance_research_assistant
+SRC-042,Case Operations Curated Knowledge Base 42,Case Operations,curated_knowledge_base,True,high,Customer Operations,Knowledge Systems,3,public_internal,2555,active,risk_assessment_retrieval
+SRC-043,Case Operations Curated Knowledge Base 43,Case Operations,curated_knowledge_base,True,low,Fraud Analytics,Data Platform,14,confidential,2555,active,identity_resolution_support
+SRC-044,Compliance Policy Source Api 44,Compliance Policy,source_api,False,medium,Customer Operations,Data Platform,1,restricted,365,active,compliance_research_assistant
+SRC-045,Case Operations Document Repository 45,Case Operations,document_repository,True,medium,Platform Governance,Risk ETL,3,regulated_sensitive,365,deprecated,compliance_research_assistant
+SRC-046,Identity Verification Document Repository 46,Identity Verification,document_repository,True,high,Customer Operations,Data Platform,30,restricted,365,pending_review,compliance_research_assistant
+SRC-047,Compliance Policy Document Repository 47,Compliance Policy,document_repository,True,medium,Risk Data Stewardship,Search Platform,1,regulated_sensitive,365,active,compliance_research_assistant
+SRC-048,Fraud Signals Warehouse Table 48,Fraud Signals,warehouse_table,True,high,Risk Data Stewardship,Risk ETL,14,public_internal,2555,active,customer_risk_context
+SRC-049,Compliance Policy Curated Knowledge Base 49,Compliance Policy,curated_knowledge_base,True,high,Platform Governance,Risk ETL,1,confidential,1095,pending_review,compliance_research_assistant
+SRC-050,Sanctions Screening Curated Knowledge Base 50,Sanctions Screening,curated_knowledge_base,True,high,Risk Data Stewardship,Risk ETL,7,regulated_sensitive,365,active,compliance_research_assistant
+SRC-051,Identity Verification Case Management Export 51,Identity Verification,case_management_export,True,high,Risk Data Stewardship,Search Platform,1,confidential,730,active,customer_risk_context
+SRC-052,Business Registry Warehouse Table 52,Business Registry,warehouse_table,True,low,Compliance Operations,Risk ETL,3,restricted,1095,pending_review,compliance_research_assistant
+SRC-053,Fraud Signals Warehouse Table 53,Fraud Signals,warehouse_table,True,medium,Risk Data Stewardship,Knowledge Systems,1,public_internal,730,active,identity_resolution_support
+SRC-054,Compliance Policy Warehouse Table 54,Compliance Policy,warehouse_table,True,high,Compliance Operations,Risk ETL,3,restricted,365,active,identity_resolution_support
+SRC-055,Sanctions Screening Document Repository 55,Sanctions Screening,document_repository,True,medium,Fraud Analytics,Risk ETL,7,restricted,730,active,compliance_research_assistant
+SRC-056,Business Registry Warehouse Table 56,Business Registry,warehouse_table,True,high,Compliance Operations,Risk ETL,7,restricted,2555,active,customer_risk_context
+SRC-057,Case Operations Curated Knowledge Base 57,Case Operations,curated_knowledge_base,True,medium,Compliance Operations,Data Platform,7,public_internal,1825,active,risk_assessment_retrieval
+SRC-058,Identity Verification Document Repository 58,Identity Verification,document_repository,True,high,Identity Products,Search Platform,14,public_internal,1825,active,customer_risk_context
+SRC-059,Case Operations Warehouse Table 59,Case Operations,warehouse_table,True,high,Risk Data Stewardship,Search Platform,30,regulated_sensitive,730,active,compliance_research_assistant
+SRC-060,Fraud Signals Document Repository 60,Fraud Signals,document_repository,True,high,Platform Governance,Search Platform,3,confidential,365,pending_review,risk_assessment_retrieval
+SRC-061,Customer Risk Notes Warehouse Table 61,Customer Risk Notes,warehouse_table,True,low,Customer Operations,Knowledge Systems,1,confidential,365,active,identity_resolution_support
+SRC-062,Identity Verification Warehouse Table 62,Identity Verification,warehouse_table,True,high,Fraud Analytics,Risk ETL,30,public_internal,730,active,identity_resolution_support
+SRC-063,Customer Risk Notes Warehouse Table 63,Customer Risk Notes,warehouse_table,True,high,Compliance Operations,Risk ETL,14,restricted,1095,active,compliance_research_assistant
+SRC-064,Device Intelligence Document Repository 64,Device Intelligence,document_repository,True,high,Risk Data Stewardship,Risk ETL,14,confidential,1825,active,compliance_research_assistant
+SRC-065,Sanctions Screening Warehouse Table 65,Sanctions Screening,warehouse_table,False,high,Customer Operations,Risk ETL,7,confidential,730,pending_review,risk_assessment_retrieval
+SRC-066,Case Operations Source Api 66,Case Operations,source_api,True,high,Compliance Operations,Risk ETL,1,regulated_sensitive,730,active,fraud_triage_copilot
+SRC-067,Device Intelligence Document Repository 67,Device Intelligence,document_repository,True,medium,Risk Data Stewardship,Knowledge Systems,30,restricted,1825,pending_review,fraud_triage_copilot
+SRC-068,Device Intelligence Case Management Export 68,Device Intelligence,case_management_export,True,low,Platform Governance,Knowledge Systems,1,restricted,1095,active,fraud_triage_copilot
+SRC-069,Sanctions Screening Case Management Export 69,Sanctions Screening,case_management_export,True,medium,Customer Operations,Data Platform,14,confidential,365,active,risk_assessment_retrieval
+SRC-070,Customer Risk Notes Case Management Export 70,Customer Risk Notes,case_management_export,True,low,Fraud Analytics,Risk ETL,3,restricted,1095,active,risk_assessment_retrieval
+SRC-071,Business Registry Curated Knowledge Base 71,Business Registry,curated_knowledge_base,True,high,Customer Operations,Knowledge Systems,1,public_internal,1095,active,compliance_research_assistant
+SRC-072,Identity Verification Curated Knowledge Base 72,Identity Verification,curated_knowledge_base,True,high,Customer Operations,Data Platform,3,restricted,365,active,customer_risk_context
+SRC-073,Business Registry Source Api 73,Business Registry,source_api,True,low,Platform Governance,Search Platform,7,confidential,730,pending_review,customer_risk_context
+SRC-074,Customer Risk Notes Warehouse Table 74,Customer Risk Notes,warehouse_table,True,high,Identity Products,Risk ETL,14,confidential,730,active,risk_assessment_retrieval
+SRC-075,Sanctions Screening Case Management Export 75,Sanctions Screening,case_management_export,True,high,Platform Governance,Data Platform,1,restricted,1095,active,customer_risk_context
+SRC-076,Identity Verification Case Management Export 76,Identity Verification,case_management_export,True,high,Fraud Analytics,Search Platform,3,public_internal,365,active,identity_resolution_support
+SRC-077,Customer Risk Notes Document Repository 77,Customer Risk Notes,document_repository,True,low,Compliance Operations,Knowledge Systems,14,confidential,1825,active,identity_resolution_support
+SRC-078,Device Intelligence Case Management Export 78,Device Intelligence,case_management_export,True,medium,Identity Products,Data Platform,7,restricted,730,active,identity_resolution_support
+SRC-079,Fraud Signals Curated Knowledge Base 79,Fraud Signals,curated_knowledge_base,True,medium,Risk Data Stewardship,Risk ETL,14,restricted,730,deprecated,fraud_triage_copilot
+SRC-080,Device Intelligence Curated Knowledge Base 80,Device Intelligence,curated_knowledge_base,False,medium,Platform Governance,Search Platform,1,restricted,1095,deprecated,risk_assessment_retrieval
+SRC-081,Compliance Policy Warehouse Table 81,Compliance Policy,warehouse_table,True,low,Compliance Operations,Data Platform,1,public_internal,365,active,identity_resolution_support
+SRC-082,Business Registry Document Repository 82,Business Registry,document_repository,True,high,Compliance Operations,Knowledge Systems,3,public_internal,730,active,compliance_research_assistant
+SRC-083,Sanctions Screening Warehouse Table 83,Sanctions Screening,warehouse_table,True,high,Fraud Analytics,Data Platform,14,public_internal,1095,active,fraud_triage_copilot
+SRC-084,Sanctions Screening Curated Knowledge Base 84,Sanctions Screening,curated_knowledge_base,False,high,Fraud Analytics,Knowledge Systems,3,confidential,1095,active,fraud_triage_copilot
+SRC-085,Case Operations Case Management Export 85,Case Operations,case_management_export,True,medium,Identity Products,Risk ETL,7,public_internal,365,pending_review,risk_assessment_retrieval
+SRC-086,Identity Verification Source Api 86,Identity Verification,source_api,True,high,Risk Data Stewardship,Data Platform,7,confidential,1095,pending_review,fraud_triage_copilot
+SRC-087,Sanctions Screening Curated Knowledge Base 87,Sanctions Screening,curated_knowledge_base,True,high,Risk Data Stewardship,Search Platform,14,regulated_sensitive,2555,active,identity_resolution_support
+SRC-088,Customer Risk Notes Case Management Export 88,Customer Risk Notes,case_management_export,True,medium,Compliance Operations,Data Platform,3,restricted,730,active,compliance_research_assistant
+SRC-089,Case Operations Source Api 89,Case Operations,source_api,True,high,Identity Products,Risk ETL,1,public_internal,1095,active,compliance_research_assistant
+SRC-090,Compliance Policy Case Management Export 90,Compliance Policy,case_management_export,True,high,Identity Products,Data Platform,1,restricted,1095,deprecated,risk_assessment_retrieval
+SRC-091,Business Registry Source Api 91,Business Registry,source_api,False,medium,Risk Data Stewardship,Data Platform,1,regulated_sensitive,1095,active,customer_risk_context
+SRC-092,Fraud Signals Source Api 92,Fraud Signals,source_api,True,high,Identity Products,Data Platform,7,restricted,1095,active,risk_assessment_retrieval
+SRC-093,Compliance Policy Document Repository 93,Compliance Policy,document_repository,True,medium,Customer Operations,Risk ETL,3,restricted,1095,active,compliance_research_assistant
+SRC-094,Case Operations Warehouse Table 94,Case Operations,warehouse_table,True,high,Customer Operations,Search Platform,14,confidential,365,pending_review,fraud_triage_copilot
+SRC-095,Case Operations Curated Knowledge Base 95,Case Operations,curated_knowledge_base,True,low,Fraud Analytics,Knowledge Systems,1,confidential,2555,active,customer_risk_context
+SRC-096,Business Registry Curated Knowledge Base 96,Business Registry,curated_knowledge_base,False,high,Fraud Analytics,Risk ETL,7,restricted,1825,active,compliance_research_assistant

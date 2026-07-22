@@ -1,0 +1,16 @@
+source_id,domain,assets,included_assets,ai_ready_assets,avg_readiness_score,freshness_sla_compliance,metadata_completeness,semantic_label_coverage,lineage_ownership_coverage,governance_compliance,retrieval_quality_pass_rate,ai_ready_pass_rate,gap_score
+SRC-076,Identity Verification,10,6,0,38.3,0.1,0.5,1.0,0.3,0.0,0.4,0.0,3.4499999999999997
+SRC-052,Business Registry,8,4,0,37.5,0.0,0.5,0.75,0.25,0.375,0.375,0.0,3.34375
+SRC-085,Case Operations,13,11,0,46.2,0.077,0.538,0.923,0.615,0.0,0.615,0.0,3.197
+SRC-042,Case Operations,15,11,1,44.4,0.333,0.467,1.0,0.333,0.067,0.467,0.067,3.12655
+SRC-027,Fraud Signals,13,7,0,44.9,0.0,0.769,0.692,0.692,0.077,0.462,0.0,3.09305
+SRC-014,Sanctions Screening,13,12,1,46.2,0.154,0.462,0.923,0.538,0.154,0.538,0.077,3.0651
+SRC-007,Sanctions Screening,10,7,0,45.0,0.1,0.7,0.9,0.6,0.0,0.4,0.0,3.0500000000000003
+SRC-025,Compliance Policy,17,0,0,44.1,0.353,0.294,0.941,0.353,0.294,0.412,0.0,3.0121
+SRC-065,Sanctions Screening,10,0,0,45.0,0.6,0.3,0.8,0.4,0.2,0.4,0.0,2.98
+SRC-053,Fraud Signals,10,7,1,45.0,0.1,0.4,1.0,0.6,0.2,0.4,0.1,2.98
+SRC-089,Case Operations,18,15,0,50.0,0.0,0.778,0.778,0.833,0.0,0.611,0.0,2.9610000000000003
+SRC-026,Customer Risk Notes,19,16,1,47.4,0.105,0.526,1.0,0.632,0.105,0.474,0.053,2.94525
+SRC-017,Device Intelligence,12,9,1,51.4,0.083,0.75,1.0,0.5,0.083,0.667,0.083,2.9049500000000004
+SRC-023,Identity Verification,14,8,0,50.0,0.0,0.643,1.0,0.714,0.071,0.571,0.0,2.89715
+SRC-071,Business Registry,11,6,0,50.0,0.091,0.636,1.0,0.727,0.0,0.545,0.0,2.8960000000000004

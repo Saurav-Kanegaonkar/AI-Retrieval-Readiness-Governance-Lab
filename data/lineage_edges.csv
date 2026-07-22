@@ -1,0 +1,421 @@
+lineage_edge_id,asset_id,upstream_system,transformation_owner,downstream_ai_surface,lineage_certified,last_lineage_review_at
+LIN-0001,AST-00800,CRM,Risk ETL,risk_copilot,True,2026-04-26
+LIN-0002,AST-00869,Risk Warehouse,Risk ETL,compliance_answering,True,2026-07-12
+LIN-0003,AST-00778,CRM,Knowledge Systems,risk_copilot,False,2026-06-12
+LIN-0004,AST-00563,CRM,Data Platform,compliance_answering,True,2026-05-06
+LIN-0005,AST-00573,External Licensed Feed,Risk ETL,identity_resolution_assistant,False,2026-06-29
+LIN-0006,AST-00612,Document CMS,Data Platform,identity_resolution_assistant,False,2026-05-07
+LIN-0007,AST-01146,CRM,Data Platform,identity_resolution_assistant,True,2026-06-10
+LIN-0008,AST-00611,Case Management,Search Platform,compliance_answering,False,2026-06-28
+LIN-0009,AST-00390,Case Management,Knowledge Systems,case_triage_search,True,2026-05-27
+LIN-0010,AST-00072,CRM,Search Platform,risk_copilot,False,2026-04-19
+LIN-0011,AST-01387,Case Management,Knowledge Systems,case_triage_search,False,2026-03-27
+LIN-0012,AST-00607,CRM,Knowledge Systems,identity_resolution_assistant,True,2026-04-09
+LIN-0013,AST-01143,Risk Warehouse,Data Platform,identity_resolution_assistant,True,2026-04-25
+LIN-0014,AST-01418,Case Management,Knowledge Systems,compliance_answering,False,2026-04-14
+LIN-0015,AST-00186,Risk Warehouse,Search Platform,case_triage_search,True,2026-04-29
+LIN-0016,AST-01135,Document CMS,Risk ETL,case_triage_search,True,2026-07-17
+LIN-0017,AST-00928,Risk Warehouse,Search Platform,compliance_answering,False,2026-05-04
+LIN-0018,AST-00208,Document CMS,Search Platform,compliance_answering,True,2026-06-11
+LIN-0019,AST-01019,Risk Warehouse,Risk ETL,risk_copilot,True,2026-07-05
+LIN-0020,AST-00657,CRM,Data Platform,compliance_answering,True,2026-04-05
+LIN-0021,AST-00352,Document CMS,Data Platform,risk_copilot,True,2026-05-12
+LIN-0022,AST-01234,External Licensed Feed,Search Platform,case_triage_search,True,2026-03-26
+LIN-0023,AST-00826,Document CMS,Search Platform,case_triage_search,False,2026-06-21
+LIN-0024,AST-00741,Case Management,Risk ETL,risk_copilot,False,2026-07-05
+LIN-0025,AST-01385,Risk Warehouse,Risk ETL,risk_copilot,True,2026-04-27
+LIN-0026,AST-00479,Risk Warehouse,Search Platform,compliance_answering,False,2026-04-09
+LIN-0027,AST-01145,Risk Warehouse,Data Platform,case_triage_search,False,2026-06-17
+LIN-0028,AST-01281,Document CMS,Risk ETL,case_triage_search,True,2026-05-30
+LIN-0029,AST-00064,CRM,Knowledge Systems,compliance_answering,False,2026-05-15
+LIN-0030,AST-00142,Document CMS,Search Platform,identity_resolution_assistant,True,2026-06-26
+LIN-0031,AST-00147,Case Management,Data Platform,identity_resolution_assistant,False,2026-03-31
+LIN-0032,AST-00493,CRM,Search Platform,risk_copilot,True,2026-05-17
+LIN-0033,AST-00542,Risk Warehouse,Risk ETL,compliance_answering,True,2026-04-06
+LIN-0034,AST-00644,CRM,Search Platform,compliance_answering,True,2026-06-26
+LIN-0035,AST-00756,Document CMS,Data Platform,compliance_answering,False,2026-04-25
+LIN-0036,AST-00413,Case Management,Knowledge Systems,case_triage_search,False,2026-05-11
+LIN-0037,AST-00735,CRM,Search Platform,risk_copilot,True,2026-04-27
+LIN-0038,AST-00463,Risk Warehouse,Search Platform,identity_resolution_assistant,True,2026-05-01
+LIN-0039,AST-01028,CRM,Search Platform,risk_copilot,True,2026-07-05
+LIN-0040,AST-01351,CRM,Knowledge Systems,risk_copilot,True,2026-04-13
+LIN-0041,AST-01383,Risk Warehouse,Knowledge Systems,case_triage_search,False,2026-07-02
+LIN-0042,AST-00384,Document CMS,Data Platform,risk_copilot,True,2026-07-07
+LIN-0043,AST-01318,Risk Warehouse,Risk ETL,risk_copilot,False,2026-04-18
+LIN-0044,AST-00987,CRM,Knowledge Systems,compliance_answering,True,2026-05-12
+LIN-0045,AST-00656,Document CMS,Knowledge Systems,compliance_answering,True,2026-07-09
+LIN-0046,AST-01212,External Licensed Feed,Risk ETL,compliance_answering,False,2026-03-25
+LIN-0047,AST-00355,Document CMS,Knowledge Systems,compliance_answering,True,2026-05-08
+LIN-0048,AST-00499,External Licensed Feed,Knowledge Systems,case_triage_search,True,2026-04-12
+LIN-0049,AST-00010,External Licensed Feed,Search Platform,risk_copilot,True,2026-04-23
+LIN-0050,AST-00173,CRM,Data Platform,risk_copilot,False,2026-05-29
+LIN-0051,AST-00698,External Licensed Feed,Search Platform,case_triage_search,True,2026-06-18
+LIN-0052,AST-00285,Risk Warehouse,Data Platform,case_triage_search,True,2026-07-18
+LIN-0053,AST-00102,Case Management,Search Platform,identity_resolution_assistant,True,2026-06-12
+LIN-0054,AST-00873,External Licensed Feed,Search Platform,case_triage_search,True,2026-04-04
+LIN-0055,AST-01167,External Licensed Feed,Data Platform,identity_resolution_assistant,True,2026-07-10
+LIN-0056,AST-00309,Case Management,Risk ETL,case_triage_search,True,2026-05-31
+LIN-0057,AST-01147,Document CMS,Risk ETL,compliance_answering,True,2026-05-30
+LIN-0058,AST-00018,Risk Warehouse,Search Platform,compliance_answering,True,2026-05-08
+LIN-0059,AST-00908,Risk Warehouse,Data Platform,identity_resolution_assistant,False,2026-04-28
+LIN-0060,AST-01091,External Licensed Feed,Data Platform,case_triage_search,True,2026-04-10
+LIN-0061,AST-01006,External Licensed Feed,Search Platform,identity_resolution_assistant,True,2026-06-07
+LIN-0062,AST-00956,Risk Warehouse,Search Platform,risk_copilot,True,2026-06-27
+LIN-0063,AST-00411,External Licensed Feed,Data Platform,risk_copilot,False,2026-06-05
+LIN-0064,AST-01230,CRM,Data Platform,risk_copilot,True,2026-04-17
+LIN-0065,AST-01119,Risk Warehouse,Data Platform,compliance_answering,False,2026-07-18
+LIN-0066,AST-01340,Document CMS,Risk ETL,case_triage_search,True,2026-07-03
+LIN-0067,AST-00681,Case Management,Search Platform,risk_copilot,True,2026-04-06
+LIN-0068,AST-00675,Case Management,Search Platform,compliance_answering,False,2026-06-18
+LIN-0069,AST-00588,Case Management,Knowledge Systems,identity_resolution_assistant,True,2026-04-04
+LIN-0070,AST-01090,External Licensed Feed,Knowledge Systems,case_triage_search,True,2026-06-11
+LIN-0071,AST-00944,Document CMS,Data Platform,identity_resolution_assistant,False,2026-05-03
+LIN-0072,AST-00502,External Licensed Feed,Data Platform,risk_copilot,True,2026-03-29
+LIN-0073,AST-00929,Risk Warehouse,Search Platform,compliance_answering,True,2026-05-10
+LIN-0074,AST-01017,External Licensed Feed,Data Platform,risk_copilot,True,2026-06-21
+LIN-0075,AST-00378,Document CMS,Search Platform,risk_copilot,True,2026-04-13
+LIN-0076,AST-01363,Case Management,Search Platform,case_triage_search,False,2026-07-01
+LIN-0077,AST-01315,Document CMS,Data Platform,risk_copilot,True,2026-06-04
+LIN-0078,AST-01204,CRM,Data Platform,risk_copilot,True,2026-05-26
+LIN-0079,AST-01000,Risk Warehouse,Knowledge Systems,compliance_answering,True,2026-05-16
+LIN-0080,AST-00044,Document CMS,Knowledge Systems,compliance_answering,True,2026-06-24
+LIN-0081,AST-00472,Risk Warehouse,Knowledge Systems,risk_copilot,False,2026-05-20
+LIN-0082,AST-00417,Case Management,Search Platform,risk_copilot,True,2026-05-13
+LIN-0083,AST-00582,Case Management,Data Platform,compliance_answering,False,2026-05-22
+LIN-0084,AST-00119,Risk Warehouse,Search Platform,risk_copilot,True,2026-06-08
+LIN-0085,AST-00211,External Licensed Feed,Risk ETL,identity_resolution_assistant,True,2026-03-28
+LIN-0086,AST-00416,Case Management,Risk ETL,identity_resolution_assistant,True,2026-06-02
+LIN-0087,AST-01442,CRM,Risk ETL,case_triage_search,False,2026-06-21
+LIN-0088,AST-00096,Case Management,Knowledge Systems,identity_resolution_assistant,True,2026-07-03
+LIN-0089,AST-00229,Document CMS,Search Platform,identity_resolution_assistant,False,2026-05-17
+LIN-0090,AST-00572,CRM,Search Platform,identity_resolution_assistant,True,2026-03-30
+LIN-0091,AST-00652,Document CMS,Risk ETL,risk_copilot,True,2026-06-24
+LIN-0092,AST-00514,External Licensed Feed,Risk ETL,compliance_answering,True,2026-06-03
+LIN-0093,AST-00833,Document CMS,Risk ETL,risk_copilot,False,2026-04-04
+LIN-0094,AST-00451,Case Management,Search Platform,case_triage_search,False,2026-04-10
+LIN-0095,AST-00112,CRM,Search Platform,risk_copilot,True,2026-06-10
+LIN-0096,AST-01070,CRM,Risk ETL,case_triage_search,False,2026-05-24
+LIN-0097,AST-00014,Document CMS,Search Platform,compliance_answering,True,2026-06-07
+LIN-0098,AST-00531,Case Management,Data Platform,case_triage_search,True,2026-07-14
+LIN-0099,AST-01370,CRM,Risk ETL,identity_resolution_assistant,True,2026-03-30
+LIN-0100,AST-00187,CRM,Risk ETL,compliance_answering,True,2026-05-10
+LIN-0101,AST-00670,Document CMS,Risk ETL,case_triage_search,True,2026-04-10
+LIN-0102,AST-00035,Case Management,Risk ETL,compliance_answering,False,2026-03-29
+LIN-0103,AST-01115,Case Management,Risk ETL,compliance_answering,False,2026-07-22
+LIN-0104,AST-00180,Document CMS,Knowledge Systems,identity_resolution_assistant,False,2026-07-06
+LIN-0105,AST-00099,External Licensed Feed,Search Platform,case_triage_search,True,2026-06-15
+LIN-0106,AST-00485,Risk Warehouse,Data Platform,compliance_answering,True,2026-06-13
+LIN-0107,AST-01326,Risk Warehouse,Knowledge Systems,risk_copilot,True,2026-04-13
+LIN-0108,AST-00347,Case Management,Risk ETL,compliance_answering,True,2026-04-08
+LIN-0109,AST-00879,CRM,Data Platform,case_triage_search,False,2026-05-14
+LIN-0110,AST-00329,CRM,Data Platform,identity_resolution_assistant,False,2026-07-14
+LIN-0111,AST-00594,CRM,Knowledge Systems,risk_copilot,False,2026-07-15
+LIN-0112,AST-01050,External Licensed Feed,Data Platform,case_triage_search,False,2026-07-01
+LIN-0113,AST-00511,Risk Warehouse,Knowledge Systems,compliance_answering,True,2026-05-12
+LIN-0114,AST-00368,CRM,Risk ETL,risk_copilot,True,2026-05-25
+LIN-0115,AST-01357,Risk Warehouse,Search Platform,risk_copilot,True,2026-04-26
+LIN-0116,AST-00535,External Licensed Feed,Knowledge Systems,identity_resolution_assistant,True,2026-06-20
+LIN-0117,AST-01118,Risk Warehouse,Risk ETL,case_triage_search,False,2026-05-14
+LIN-0118,AST-00373,CRM,Risk ETL,case_triage_search,True,2026-04-28
+LIN-0119,AST-00364,CRM,Risk ETL,case_triage_search,True,2026-06-18
+LIN-0120,AST-00059,Document CMS,Search Platform,compliance_answering,False,2026-04-30
+LIN-0121,AST-00708,External Licensed Feed,Knowledge Systems,risk_copilot,False,2026-07-15
+LIN-0122,AST-01188,External Licensed Feed,Data Platform,case_triage_search,True,2026-04-26
+LIN-0123,AST-00025,Case Management,Risk ETL,risk_copilot,True,2026-05-26
+LIN-0124,AST-00111,Case Management,Search Platform,risk_copilot,False,2026-06-26
+LIN-0125,AST-00016,External Licensed Feed,Search Platform,case_triage_search,False,2026-04-23
+LIN-0126,AST-00743,External Licensed Feed,Risk ETL,compliance_answering,False,2026-05-09
+LIN-0127,AST-00923,CRM,Data Platform,risk_copilot,False,2026-07-20
+LIN-0128,AST-00919,Risk Warehouse,Search Platform,case_triage_search,False,2026-06-23
+LIN-0129,AST-00331,Case Management,Knowledge Systems,risk_copilot,True,2026-04-16
+LIN-0130,AST-00165,Risk Warehouse,Data Platform,case_triage_search,False,2026-06-27
+LIN-0131,AST-01348,Case Management,Search Platform,identity_resolution_assistant,False,2026-07-14
+LIN-0132,AST-00432,Document CMS,Data Platform,case_triage_search,True,2026-07-16
+LIN-0133,AST-00817,Case Management,Data Platform,identity_resolution_assistant,True,2026-07-21
+LIN-0134,AST-00205,External Licensed Feed,Risk ETL,case_triage_search,True,2026-04-08
+LIN-0135,AST-01179,CRM,Knowledge Systems,case_triage_search,True,2026-06-26
+LIN-0136,AST-00100,Document CMS,Knowledge Systems,case_triage_search,True,2026-04-07
+LIN-0137,AST-00738,Risk Warehouse,Data Platform,case_triage_search,True,2026-04-27
+LIN-0138,AST-00047,Case Management,Risk ETL,case_triage_search,True,2026-05-20
+LIN-0139,AST-01138,Case Management,Search Platform,compliance_answering,True,2026-07-18
+LIN-0140,AST-00410,Document CMS,Knowledge Systems,identity_resolution_assistant,False,2026-05-28
+LIN-0141,AST-00763,Document CMS,Risk ETL,risk_copilot,True,2026-07-08
+LIN-0142,AST-01158,CRM,Knowledge Systems,risk_copilot,False,2026-05-19
+LIN-0143,AST-00899,External Licensed Feed,Data Platform,risk_copilot,False,2026-04-28
+LIN-0144,AST-00692,CRM,Search Platform,compliance_answering,False,2026-06-18
+LIN-0145,AST-00659,CRM,Search Platform,case_triage_search,False,2026-07-03
+LIN-0146,AST-01343,Document CMS,Search Platform,identity_resolution_assistant,False,2026-07-04
+LIN-0147,AST-01094,Risk Warehouse,Search Platform,identity_resolution_assistant,False,2026-06-24
+LIN-0148,AST-00114,CRM,Risk ETL,identity_resolution_assistant,True,2026-06-20
+LIN-0149,AST-00052,CRM,Knowledge Systems,risk_copilot,True,2026-07-18
+LIN-0150,AST-00549,External Licensed Feed,Risk ETL,case_triage_search,True,2026-05-22
+LIN-0151,AST-00250,CRM,Risk ETL,compliance_answering,True,2026-06-23
+LIN-0152,AST-00508,Document CMS,Knowledge Systems,compliance_answering,True,2026-04-15
+LIN-0153,AST-00700,CRM,Risk ETL,risk_copilot,True,2026-07-22
+LIN-0154,AST-01081,External Licensed Feed,Knowledge Systems,case_triage_search,True,2026-05-03
+LIN-0155,AST-00507,CRM,Risk ETL,identity_resolution_assistant,False,2026-06-02
+LIN-0156,AST-00398,CRM,Knowledge Systems,identity_resolution_assistant,True,2026-05-20
+LIN-0157,AST-01257,Document CMS,Knowledge Systems,identity_resolution_assistant,True,2026-04-20
+LIN-0158,AST-00684,External Licensed Feed,Risk ETL,risk_copilot,False,2026-05-12
+LIN-0159,AST-00907,External Licensed Feed,Risk ETL,risk_copilot,True,2026-05-11
+LIN-0160,AST-00327,Document CMS,Search Platform,compliance_answering,True,2026-06-03
+LIN-0161,AST-00604,Case Management,Data Platform,compliance_answering,True,2026-05-02
+LIN-0162,AST-01366,Case Management,Data Platform,compliance_answering,False,2026-06-22
+LIN-0163,AST-01303,Document CMS,Search Platform,risk_copilot,False,2026-05-02
+LIN-0164,AST-01042,Case Management,Knowledge Systems,risk_copilot,False,2026-04-30
+LIN-0165,AST-00782,Document CMS,Search Platform,risk_copilot,False,2026-05-31
+LIN-0166,AST-01358,Risk Warehouse,Knowledge Systems,identity_resolution_assistant,True,2026-06-26
+LIN-0167,AST-00021,External Licensed Feed,Risk ETL,risk_copilot,True,2026-04-14
+LIN-0168,AST-01449,Risk Warehouse,Knowledge Systems,compliance_answering,False,2026-05-02
+LIN-0169,AST-00408,Document CMS,Search Platform,case_triage_search,False,2026-07-11
+LIN-0170,AST-00829,Document CMS,Knowledge Systems,risk_copilot,False,2026-04-23
+LIN-0171,AST-00636,External Licensed Feed,Data Platform,risk_copilot,False,2026-05-07
+LIN-0172,AST-00801,Document CMS,Search Platform,compliance_answering,False,2026-06-07
+LIN-0173,AST-00790,Risk Warehouse,Knowledge Systems,identity_resolution_assistant,True,2026-06-01
+LIN-0174,AST-00465,Document CMS,Risk ETL,case_triage_search,True,2026-05-09
+LIN-0175,AST-00694,Risk Warehouse,Risk ETL,compliance_answering,True,2026-04-06
+LIN-0176,AST-00276,Risk Warehouse,Search Platform,risk_copilot,False,2026-04-19
+LIN-0177,AST-01402,CRM,Data Platform,compliance_answering,True,2026-04-18
+LIN-0178,AST-00842,Case Management,Search Platform,risk_copilot,True,2026-04-11
+LIN-0179,AST-00242,Risk Warehouse,Search Platform,compliance_answering,True,2026-07-03
+LIN-0180,AST-00673,Case Management,Risk ETL,risk_copilot,True,2026-05-04
+LIN-0181,AST-01105,Case Management,Risk ETL,case_triage_search,True,2026-06-09
+LIN-0182,AST-00393,CRM,Data Platform,identity_resolution_assistant,True,2026-07-21
+LIN-0183,AST-01364,CRM,Search Platform,risk_copilot,True,2026-05-15
+LIN-0184,AST-00532,Case Management,Search Platform,risk_copilot,True,2026-04-09
+LIN-0185,AST-00129,CRM,Knowledge Systems,identity_resolution_assistant,False,2026-07-20
+LIN-0186,AST-01027,CRM,Data Platform,risk_copilot,False,2026-05-23
+LIN-0187,AST-00569,Case Management,Data Platform,identity_resolution_assistant,True,2026-06-26
+LIN-0188,AST-01029,Document CMS,Data Platform,compliance_answering,False,2026-04-14
+LIN-0189,AST-00894,Document CMS,Search Platform,identity_resolution_assistant,False,2026-06-30
+LIN-0190,AST-01430,Risk Warehouse,Risk ETL,case_triage_search,False,2026-07-01
+LIN-0191,AST-00799,Case Management,Knowledge Systems,risk_copilot,True,2026-05-18
+LIN-0192,AST-01297,CRM,Knowledge Systems,identity_resolution_assistant,True,2026-06-03
+LIN-0193,AST-00370,External Licensed Feed,Knowledge Systems,case_triage_search,True,2026-07-13
+LIN-0194,AST-00345,CRM,Data Platform,identity_resolution_assistant,True,2026-05-11
+LIN-0195,AST-01187,Document CMS,Data Platform,compliance_answering,True,2026-05-17
+LIN-0196,AST-00893,External Licensed Feed,Search Platform,compliance_answering,True,2026-07-01
+LIN-0197,AST-00263,External Licensed Feed,Data Platform,case_triage_search,True,2026-05-30
+LIN-0198,AST-01322,Document CMS,Data Platform,compliance_answering,True,2026-07-12
+LIN-0199,AST-01389,Document CMS,Search Platform,identity_resolution_assistant,True,2026-06-16
+LIN-0200,AST-00152,Case Management,Knowledge Systems,case_triage_search,False,2026-04-23
+LIN-0201,AST-00028,CRM,Data Platform,identity_resolution_assistant,False,2026-07-09
+LIN-0202,AST-00889,Risk Warehouse,Risk ETL,case_triage_search,True,2026-05-09
+LIN-0203,AST-01290,External Licensed Feed,Risk ETL,compliance_answering,False,2026-07-05
+LIN-0204,AST-00714,CRM,Risk ETL,risk_copilot,True,2026-06-12
+LIN-0205,AST-01173,Document CMS,Data Platform,case_triage_search,False,2026-07-12
+LIN-0206,AST-01413,CRM,Search Platform,risk_copilot,False,2026-06-08
+LIN-0207,AST-00351,Risk Warehouse,Knowledge Systems,compliance_answering,True,2026-07-14
+LIN-0208,AST-00109,Case Management,Knowledge Systems,risk_copilot,True,2026-04-27
+LIN-0209,AST-01103,Case Management,Search Platform,identity_resolution_assistant,False,2026-05-21
+LIN-0210,AST-01409,Case Management,Knowledge Systems,case_triage_search,True,2026-06-23
+LIN-0211,AST-00814,Risk Warehouse,Risk ETL,case_triage_search,False,2026-06-26
+LIN-0212,AST-01372,Document CMS,Data Platform,case_triage_search,True,2026-04-21
+LIN-0213,AST-00748,Case Management,Search Platform,compliance_answering,True,2026-05-11
+LIN-0214,AST-00286,Risk Warehouse,Risk ETL,compliance_answering,True,2026-03-27
+LIN-0215,AST-00469,Risk Warehouse,Risk ETL,case_triage_search,True,2026-05-22
+LIN-0216,AST-00792,CRM,Data Platform,case_triage_search,False,2026-06-06
+LIN-0217,AST-00678,Document CMS,Knowledge Systems,identity_resolution_assistant,True,2026-06-15
+LIN-0218,AST-01325,CRM,Risk ETL,case_triage_search,True,2026-07-19
+LIN-0219,AST-00650,CRM,Knowledge Systems,identity_resolution_assistant,True,2026-04-20
+LIN-0220,AST-01223,CRM,Knowledge Systems,identity_resolution_assistant,False,2026-05-28
+LIN-0221,AST-00386,External Licensed Feed,Data Platform,compliance_answering,True,2026-05-26
+LIN-0222,AST-01034,External Licensed Feed,Risk ETL,compliance_answering,False,2026-07-22
+LIN-0223,AST-00719,Risk Warehouse,Knowledge Systems,compliance_answering,True,2026-06-11
+LIN-0224,AST-00721,Case Management,Search Platform,identity_resolution_assistant,True,2026-04-25
+LIN-0225,AST-00474,Document CMS,Data Platform,identity_resolution_assistant,False,2026-06-18
+LIN-0226,AST-00455,External Licensed Feed,Knowledge Systems,compliance_answering,True,2026-03-29
+LIN-0227,AST-00128,Risk Warehouse,Data Platform,case_triage_search,True,2026-05-10
+LIN-0228,AST-00982,CRM,Data Platform,compliance_answering,True,2026-06-14
+LIN-0229,AST-01009,Document CMS,Knowledge Systems,risk_copilot,False,2026-05-14
+LIN-0230,AST-00936,Risk Warehouse,Search Platform,identity_resolution_assistant,False,2026-06-21
+LIN-0231,AST-00260,Document CMS,Risk ETL,identity_resolution_assistant,True,2026-05-30
+LIN-0232,AST-01078,Case Management,Search Platform,risk_copilot,True,2026-05-28
+LIN-0233,AST-00264,Case Management,Search Platform,compliance_answering,False,2026-04-22
+LIN-0234,AST-00448,Risk Warehouse,Data Platform,case_triage_search,True,2026-04-10
+LIN-0235,AST-00005,Case Management,Search Platform,risk_copilot,True,2026-07-13
+LIN-0236,AST-00171,Document CMS,Knowledge Systems,case_triage_search,True,2026-05-28
+LIN-0237,AST-00061,External Licensed Feed,Knowledge Systems,case_triage_search,False,2026-05-07
+LIN-0238,AST-00547,Risk Warehouse,Data Platform,compliance_answering,True,2026-07-02
+LIN-0239,AST-01391,CRM,Risk ETL,compliance_answering,False,2026-06-29
+LIN-0240,AST-00739,Risk Warehouse,Data Platform,case_triage_search,False,2026-07-18
+LIN-0241,AST-01428,Risk Warehouse,Risk ETL,identity_resolution_assistant,True,2026-06-01
+LIN-0242,AST-01237,Document CMS,Search Platform,case_triage_search,True,2026-03-26
+LIN-0243,AST-00190,Document CMS,Knowledge Systems,risk_copilot,False,2026-05-02
+LIN-0244,AST-00325,Case Management,Risk ETL,case_triage_search,True,2026-04-27
+LIN-0245,AST-00665,CRM,Search Platform,identity_resolution_assistant,True,2026-07-12
+LIN-0246,AST-00253,External Licensed Feed,Data Platform,case_triage_search,True,2026-05-01
+LIN-0247,AST-00688,External Licensed Feed,Risk ETL,compliance_answering,True,2026-04-25
+LIN-0248,AST-00811,CRM,Data Platform,case_triage_search,True,2026-05-29
+LIN-0249,AST-01349,Case Management,Data Platform,identity_resolution_assistant,True,2026-04-24
+LIN-0250,AST-01025,CRM,Search Platform,compliance_answering,False,2026-06-15
+LIN-0251,AST-00878,External Licensed Feed,Risk ETL,risk_copilot,False,2026-07-07
+LIN-0252,AST-00295,Document CMS,Knowledge Systems,identity_resolution_assistant,True,2026-05-05
+LIN-0253,AST-00733,External Licensed Feed,Data Platform,case_triage_search,True,2026-06-23
+LIN-0254,AST-00961,Document CMS,Search Platform,identity_resolution_assistant,True,2026-06-27
+LIN-0255,AST-00314,CRM,Data Platform,compliance_answering,True,2026-03-31
+LIN-0256,AST-01016,Document CMS,Search Platform,identity_resolution_assistant,False,2026-07-04
+LIN-0257,AST-00780,Risk Warehouse,Knowledge Systems,identity_resolution_assistant,False,2026-06-14
+LIN-0258,AST-00740,Document CMS,Search Platform,risk_copilot,False,2026-06-30
+LIN-0259,AST-00362,CRM,Data Platform,case_triage_search,True,2026-04-30
+LIN-0260,AST-01450,CRM,Data Platform,compliance_answering,True,2026-05-17
+LIN-0261,AST-00772,Case Management,Risk ETL,risk_copilot,True,2026-06-19
+LIN-0262,AST-00214,Document CMS,Data Platform,identity_resolution_assistant,True,2026-06-20
+LIN-0263,AST-01284,Risk Warehouse,Data Platform,compliance_answering,True,2026-03-25
+LIN-0264,AST-00468,Case Management,Data Platform,risk_copilot,False,2026-03-31
+LIN-0265,AST-00937,External Licensed Feed,Data Platform,identity_resolution_assistant,True,2026-05-29
+LIN-0266,AST-00798,External Licensed Feed,Risk ETL,case_triage_search,False,2026-05-30
+LIN-0267,AST-00200,Case Management,Knowledge Systems,risk_copilot,True,2026-06-13
+LIN-0268,AST-00427,Risk Warehouse,Search Platform,case_triage_search,True,2026-06-10
+LIN-0269,AST-00301,External Licensed Feed,Search Platform,identity_resolution_assistant,False,2026-06-19
+LIN-0270,AST-01106,External Licensed Feed,Knowledge Systems,identity_resolution_assistant,True,2026-06-23
+LIN-0271,AST-00586,External Licensed Feed,Data Platform,risk_copilot,True,2026-07-13
+LIN-0272,AST-00217,CRM,Data Platform,compliance_answering,False,2026-03-29
+LIN-0273,AST-00596,Risk Warehouse,Search Platform,case_triage_search,True,2026-07-14
+LIN-0274,AST-00254,Document CMS,Risk ETL,compliance_answering,False,2026-05-30
+LIN-0275,AST-00153,Case Management,Risk ETL,case_triage_search,False,2026-05-19
+LIN-0276,AST-00195,External Licensed Feed,Risk ETL,case_triage_search,True,2026-07-17
+LIN-0277,AST-00807,Risk Warehouse,Risk ETL,case_triage_search,True,2026-05-24
+LIN-0278,AST-00069,CRM,Search Platform,case_triage_search,True,2026-07-05
+LIN-0279,AST-00504,Risk Warehouse,Risk ETL,case_triage_search,True,2026-05-29
+LIN-0280,AST-00349,CRM,Data Platform,compliance_answering,True,2026-05-08
+LIN-0281,AST-01171,External Licensed Feed,Search Platform,case_triage_search,False,2026-05-31
+LIN-0282,AST-00341,CRM,Data Platform,risk_copilot,True,2026-03-26
+LIN-0283,AST-01206,CRM,Knowledge Systems,risk_copilot,True,2026-06-22
+LIN-0284,AST-00672,Risk Warehouse,Risk ETL,risk_copilot,False,2026-05-18
+LIN-0285,AST-00415,Document CMS,Data Platform,case_triage_search,False,2026-06-06
+LIN-0286,AST-00241,External Licensed Feed,Risk ETL,case_triage_search,True,2026-04-03
+LIN-0287,AST-00757,CRM,Knowledge Systems,compliance_answering,False,2026-07-07
+LIN-0288,AST-00188,Case Management,Search Platform,identity_resolution_assistant,True,2026-05-03
+LIN-0289,AST-00838,Risk Warehouse,Data Platform,compliance_answering,False,2026-04-22
+LIN-0290,AST-00752,Case Management,Knowledge Systems,identity_resolution_assistant,True,2026-05-31
+LIN-0291,AST-01381,Case Management,Knowledge Systems,compliance_answering,True,2026-07-05
+LIN-0292,AST-00641,Risk Warehouse,Search Platform,compliance_answering,False,2026-07-04
+LIN-0293,AST-00904,Risk Warehouse,Risk ETL,compliance_answering,True,2026-05-19
+LIN-0294,AST-00284,CRM,Data Platform,risk_copilot,True,2026-05-14
+LIN-0295,AST-00729,Case Management,Search Platform,case_triage_search,True,2026-05-08
+LIN-0296,AST-01287,External Licensed Feed,Risk ETL,compliance_answering,True,2026-04-02
+LIN-0297,AST-00452,Document CMS,Knowledge Systems,identity_resolution_assistant,False,2026-06-25
+LIN-0298,AST-00395,CRM,Data Platform,compliance_answering,False,2026-05-23
+LIN-0299,AST-00110,External Licensed Feed,Data Platform,risk_copilot,True,2026-04-23
+LIN-0300,AST-01260,CRM,Knowledge Systems,compliance_answering,False,2026-04-15
+LIN-0301,AST-00123,CRM,Data Platform,compliance_answering,True,2026-03-31
+LIN-0302,AST-00371,Risk Warehouse,Knowledge Systems,compliance_answering,True,2026-05-22
+LIN-0303,AST-00281,CRM,Risk ETL,identity_resolution_assistant,True,2026-06-16
+LIN-0304,AST-00618,External Licensed Feed,Risk ETL,identity_resolution_assistant,False,2026-06-15
+LIN-0305,AST-01435,External Licensed Feed,Search Platform,risk_copilot,True,2026-05-10
+LIN-0306,AST-01139,Risk Warehouse,Search Platform,case_triage_search,False,2026-06-02
+LIN-0307,AST-00706,External Licensed Feed,Knowledge Systems,risk_copilot,True,2026-05-21
+LIN-0308,AST-00379,Risk Warehouse,Search Platform,risk_copilot,True,2026-04-23
+LIN-0309,AST-01416,Document CMS,Data Platform,case_triage_search,True,2026-06-21
+LIN-0310,AST-01388,Risk Warehouse,Data Platform,risk_copilot,True,2026-04-25
+LIN-0311,AST-01404,External Licensed Feed,Search Platform,identity_resolution_assistant,True,2026-07-09
+LIN-0312,AST-00326,Case Management,Search Platform,risk_copilot,True,2026-07-12
+LIN-0313,AST-01088,Risk Warehouse,Data Platform,compliance_answering,False,2026-07-01
+LIN-0314,AST-00068,Document CMS,Knowledge Systems,case_triage_search,True,2026-06-05
+LIN-0315,AST-00518,Document CMS,Search Platform,case_triage_search,True,2026-05-24
+LIN-0316,AST-00490,External Licensed Feed,Knowledge Systems,case_triage_search,True,2026-04-29
+LIN-0317,AST-00976,Risk Warehouse,Search Platform,risk_copilot,True,2026-06-07
+LIN-0318,AST-01174,Document CMS,Knowledge Systems,compliance_answering,True,2026-06-26
+LIN-0319,AST-01254,Document CMS,Data Platform,compliance_answering,False,2026-07-19
+LIN-0320,AST-00745,Document CMS,Risk ETL,compliance_answering,True,2026-03-29
+LIN-0321,AST-00319,External Licensed Feed,Knowledge Systems,identity_resolution_assistant,False,2026-05-04
+LIN-0322,AST-01341,Risk Warehouse,Knowledge Systems,compliance_answering,False,2026-05-24
+LIN-0323,AST-01238,Document CMS,Search Platform,case_triage_search,True,2026-05-03
+LIN-0324,AST-00839,External Licensed Feed,Knowledge Systems,compliance_answering,False,2026-04-07
+LIN-0325,AST-00501,Case Management,Data Platform,case_triage_search,True,2026-07-08
+LIN-0326,AST-00133,CRM,Risk ETL,compliance_answering,True,2026-05-12
+LIN-0327,AST-00651,Case Management,Knowledge Systems,identity_resolution_assistant,True,2026-05-26
+LIN-0328,AST-00947,Risk Warehouse,Data Platform,case_triage_search,True,2026-06-30
+LIN-0329,AST-01071,External Licensed Feed,Search Platform,case_triage_search,True,2026-06-25
+LIN-0330,AST-01196,External Licensed Feed,Risk ETL,risk_copilot,True,2026-06-29
+LIN-0331,AST-01239,Risk Warehouse,Data Platform,case_triage_search,True,2026-04-14
+LIN-0332,AST-00557,CRM,Risk ETL,identity_resolution_assistant,False,2026-05-03
+LIN-0333,AST-00126,Document CMS,Knowledge Systems,case_triage_search,True,2026-04-20
+LIN-0334,AST-00666,External Licensed Feed,Search Platform,compliance_answering,False,2026-06-28
+LIN-0335,AST-01170,Document CMS,Data Platform,compliance_answering,False,2026-06-08
+LIN-0336,AST-01038,Risk Warehouse,Risk ETL,identity_resolution_assistant,True,2026-07-20
+LIN-0337,AST-00958,CRM,Search Platform,case_triage_search,True,2026-07-09
+LIN-0338,AST-00906,Case Management,Risk ETL,identity_resolution_assistant,True,2026-07-02
+LIN-0339,AST-00290,CRM,Risk ETL,identity_resolution_assistant,True,2026-05-21
+LIN-0340,AST-00821,Case Management,Search Platform,identity_resolution_assistant,True,2026-03-31
+LIN-0341,AST-00834,CRM,Risk ETL,case_triage_search,True,2026-07-06
+LIN-0342,AST-00784,Risk Warehouse,Search Platform,case_triage_search,True,2026-07-22
+LIN-0343,AST-00054,External Licensed Feed,Data Platform,compliance_answering,True,2026-06-23
+LIN-0344,AST-00446,Risk Warehouse,Data Platform,identity_resolution_assistant,True,2026-04-21
+LIN-0345,AST-01277,Document CMS,Search Platform,risk_copilot,True,2026-06-23
+LIN-0346,AST-00749,External Licensed Feed,Search Platform,compliance_answering,True,2026-06-26
+LIN-0347,AST-00682,External Licensed Feed,Search Platform,identity_resolution_assistant,False,2026-05-14
+LIN-0348,AST-00041,Risk Warehouse,Data Platform,identity_resolution_assistant,True,2026-05-22
+LIN-0349,AST-00340,Risk Warehouse,Search Platform,compliance_answering,True,2026-05-04
+LIN-0350,AST-01261,CRM,Knowledge Systems,risk_copilot,True,2026-05-15
+LIN-0351,AST-00818,Risk Warehouse,Risk ETL,risk_copilot,False,2026-07-17
+LIN-0352,AST-01083,Case Management,Search Platform,risk_copilot,False,2026-04-13
+LIN-0353,AST-00713,Risk Warehouse,Search Platform,case_triage_search,True,2026-05-22
+LIN-0354,AST-00084,CRM,Search Platform,identity_resolution_assistant,False,2026-04-09
+LIN-0355,AST-00116,External Licensed Feed,Knowledge Systems,compliance_answering,True,2026-04-21
+LIN-0356,AST-01117,CRM,Knowledge Systems,case_triage_search,True,2026-06-17
+LIN-0357,AST-01075,Document CMS,Risk ETL,risk_copilot,True,2026-04-26
+LIN-0358,AST-00431,Document CMS,Data Platform,identity_resolution_assistant,False,2026-07-13
+LIN-0359,AST-01313,Case Management,Risk ETL,identity_resolution_assistant,False,2026-05-26
+LIN-0360,AST-00875,Document CMS,Risk ETL,compliance_answering,True,2026-07-10
+LIN-0361,AST-00271,Risk Warehouse,Search Platform,identity_resolution_assistant,True,2026-06-21
+LIN-0362,AST-00863,CRM,Risk ETL,case_triage_search,True,2026-07-20
+LIN-0363,AST-01209,External Licensed Feed,Risk ETL,risk_copilot,False,2026-04-18
+LIN-0364,AST-01334,Document CMS,Knowledge Systems,identity_resolution_assistant,False,2026-05-09
+LIN-0365,AST-00770,Risk Warehouse,Risk ETL,identity_resolution_assistant,False,2026-04-09
+LIN-0366,AST-01305,External Licensed Feed,Search Platform,risk_copilot,False,2026-04-26
+LIN-0367,AST-00097,CRM,Risk ETL,identity_resolution_assistant,True,2026-05-19
+LIN-0368,AST-01153,Case Management,Search Platform,identity_resolution_assistant,True,2026-06-24
+LIN-0369,AST-01321,Risk Warehouse,Data Platform,risk_copilot,True,2026-05-28
+LIN-0370,AST-00526,CRM,Risk ETL,identity_resolution_assistant,True,2026-05-12
+LIN-0371,AST-00049,Document CMS,Risk ETL,case_triage_search,True,2026-03-30
+LIN-0372,AST-01335,Document CMS,Risk ETL,risk_copilot,True,2026-05-03
+LIN-0373,AST-01079,Case Management,Risk ETL,identity_resolution_assistant,True,2026-05-17
+LIN-0374,AST-00154,Document CMS,Knowledge Systems,identity_resolution_assistant,True,2026-04-20
+LIN-0375,AST-00238,CRM,Search Platform,case_triage_search,True,2026-05-14
+LIN-0376,AST-00055,Document CMS,Risk ETL,compliance_answering,True,2026-05-22
+LIN-0377,AST-00124,CRM,Risk ETL,case_triage_search,True,2026-03-31
+LIN-0378,AST-00685,Risk Warehouse,Knowledge Systems,case_triage_search,True,2026-07-04
+LIN-0379,AST-00135,Document CMS,Data Platform,compliance_answering,False,2026-06-06
+LIN-0380,AST-00269,Risk Warehouse,Knowledge Systems,identity_resolution_assistant,False,2026-04-04
+LIN-0381,AST-00098,Case Management,Risk ETL,risk_copilot,True,2026-04-07
+LIN-0382,AST-00221,Risk Warehouse,Knowledge Systems,identity_resolution_assistant,True,2026-06-29
+LIN-0383,AST-00042,Risk Warehouse,Data Platform,risk_copilot,True,2026-04-22
+LIN-0384,AST-01405,Risk Warehouse,Data Platform,compliance_answering,True,2026-06-09
+LIN-0385,AST-00464,Case Management,Data Platform,risk_copilot,True,2026-07-21
+LIN-0386,AST-01246,Case Management,Risk ETL,compliance_answering,True,2026-06-18
+LIN-0387,AST-00872,Case Management,Knowledge Systems,identity_resolution_assistant,False,2026-06-23
+LIN-0388,AST-00505,CRM,Risk ETL,case_triage_search,False,2026-07-22
+LIN-0389,AST-00566,Document CMS,Data Platform,identity_resolution_assistant,False,2026-05-29
+LIN-0390,AST-00013,CRM,Risk ETL,risk_copilot,True,2026-07-13
+LIN-0391,AST-01087,Case Management,Knowledge Systems,case_triage_search,True,2026-05-28
+LIN-0392,AST-00548,CRM,Data Platform,risk_copilot,False,2026-06-20
+LIN-0393,AST-00998,Document CMS,Knowledge Systems,identity_resolution_assistant,False,2026-04-28
+LIN-0394,AST-00397,Case Management,Knowledge Systems,compliance_answering,True,2026-07-13
+LIN-0395,AST-01181,Risk Warehouse,Search Platform,risk_copilot,True,2026-04-12
+LIN-0396,AST-01384,Document CMS,Data Platform,identity_resolution_assistant,False,2026-05-18
+LIN-0397,AST-00705,Risk Warehouse,Search Platform,identity_resolution_assistant,False,2026-07-19
+LIN-0398,AST-00857,External Licensed Feed,Risk ETL,identity_resolution_assistant,True,2026-06-13
+LIN-0399,AST-01279,Risk Warehouse,Data Platform,risk_copilot,True,2026-06-11
+LIN-0400,AST-00916,CRM,Data Platform,case_triage_search,False,2026-04-16
+LIN-0401,AST-00884,CRM,Search Platform,risk_copilot,True,2026-06-03
+LIN-0402,AST-01300,Risk Warehouse,Data Platform,identity_resolution_assistant,True,2026-07-14
+LIN-0403,AST-01283,Document CMS,Search Platform,identity_resolution_assistant,True,2026-03-28
+LIN-0404,AST-00783,External Licensed Feed,Knowledge Systems,compliance_answering,False,2026-04-20
+LIN-0405,AST-01226,Risk Warehouse,Data Platform,risk_copilot,True,2026-06-17
+LIN-0406,AST-00433,Document CMS,Data Platform,case_triage_search,True,2026-05-12
+LIN-0407,AST-00453,Risk Warehouse,Risk ETL,risk_copilot,True,2026-07-12
+LIN-0408,AST-00337,CRM,Knowledge Systems,case_triage_search,True,2026-03-28
+LIN-0409,AST-00233,Case Management,Risk ETL,case_triage_search,True,2026-05-11
+LIN-0410,AST-00984,Risk Warehouse,Data Platform,risk_copilot,True,2026-04-07
+LIN-0411,AST-00519,Risk Warehouse,Data Platform,case_triage_search,False,2026-07-16
+LIN-0412,AST-00643,Risk Warehouse,Search Platform,risk_copilot,True,2026-04-05
+LIN-0413,AST-01095,Case Management,Risk ETL,compliance_answering,False,2026-06-28
+LIN-0414,AST-00298,CRM,Risk ETL,risk_copilot,True,2026-07-07
+LIN-0415,AST-01400,Case Management,Risk ETL,compliance_answering,False,2026-05-16
+LIN-0416,AST-01266,Document CMS,Risk ETL,compliance_answering,True,2026-06-01
+LIN-0417,AST-00699,External Licensed Feed,Risk ETL,risk_copilot,True,2026-05-07
+LIN-0418,AST-00206,Case Management,Search Platform,case_triage_search,True,2026-05-26
+LIN-0419,AST-00774,Case Management,Search Platform,compliance_answering,False,2026-05-22
+LIN-0420,AST-01396,Document CMS,Data Platform,compliance_answering,False,2026-04-13

@@ -1,0 +1,7 @@
+issue_type,severity,issue_count,open_or_blocked,exposure_points,median_target_cycle_days
+governance_gap,P1,323,190,51680,10.0
+retrieval_ambiguity,P1,143,77,22880,10.0
+metadata_gap,P1,140,81,22400,10.0
+stale_source,P1,139,75,22240,10.0
+lineage_owner_gap,P1,132,70,21120,10.0
+semantic_label_gap,P1,23,14,3680,10.0

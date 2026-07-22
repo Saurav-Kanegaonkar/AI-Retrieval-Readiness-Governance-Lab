@@ -1,0 +1,901 @@
+issue_id,asset_id,source_id,domain,issue_type,severity,included_in_retrieval,estimated_risk_exposure_points,recommended_action,target_owner,cycle_time_target_days,status
+ISS-00005,AST-00003,SRC-045,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,blocked
+ISS-00008,AST-00004,SRC-062,Identity Verification,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,15,open
+ISS-00011,AST-00006,SRC-084,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,15,in_progress
+ISS-00012,AST-00006,SRC-084,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,20,in_progress
+ISS-00013,AST-00006,SRC-084,Sanctions Screening,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,15,resolved
+ISS-00014,AST-00006,SRC-084,Sanctions Screening,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,20,open
+ISS-00024,AST-00010,SRC-034,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-00035,AST-00015,SRC-054,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-00037,AST-00016,SRC-066,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,5,open
+ISS-00038,AST-00016,SRC-066,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,5,open
+ISS-00039,AST-00016,SRC-066,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,10,in_progress
+ISS-00040,AST-00016,SRC-066,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-00043,AST-00017,SRC-027,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,resolved
+ISS-00050,AST-00021,SRC-066,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,5,resolved
+ISS-00051,AST-00022,SRC-018,Business Registry,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,15,blocked
+ISS-00052,AST-00022,SRC-018,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,open
+ISS-00053,AST-00022,SRC-018,Business Registry,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,5,in_progress
+ISS-00055,AST-00024,SRC-084,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Knowledge Manager,5,in_progress
+ISS-00056,AST-00024,SRC-084,Sanctions Screening,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,5,blocked
+ISS-00057,AST-00024,SRC-084,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,5,blocked
+ISS-00058,AST-00024,SRC-084,Sanctions Screening,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-00064,AST-00027,SRC-061,Customer Risk Notes,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,10,resolved
+ISS-00066,AST-00028,SRC-063,Customer Risk Notes,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,10,open
+ISS-00067,AST-00028,SRC-063,Customer Risk Notes,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,5,open
+ISS-00068,AST-00028,SRC-063,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,in_progress
+ISS-00069,AST-00028,SRC-063,Customer Risk Notes,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,in_progress
+ISS-00075,AST-00032,SRC-018,Business Registry,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,10,in_progress
+ISS-00076,AST-00032,SRC-018,Business Registry,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,15,open
+ISS-00077,AST-00032,SRC-018,Business Registry,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,5,open
+ISS-00078,AST-00032,SRC-018,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,blocked
+ISS-00079,AST-00032,SRC-018,Business Registry,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-00081,AST-00033,SRC-030,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,resolved
+ISS-00088,AST-00035,SRC-036,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,15,open
+ISS-00094,AST-00036,SRC-079,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,in_progress
+ISS-00100,AST-00038,SRC-026,Customer Risk Notes,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-00104,AST-00039,SRC-053,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,open
+ISS-00106,AST-00040,SRC-072,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,10,open
+ISS-00107,AST-00040,SRC-072,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,in_progress
+ISS-00108,AST-00040,SRC-072,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,20,open
+ISS-00109,AST-00040,SRC-072,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,15,in_progress
+ISS-00113,AST-00042,SRC-053,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,20,in_progress
+ISS-00115,AST-00043,SRC-025,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,5,blocked
+ISS-00116,AST-00043,SRC-025,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,10,resolved
+ISS-00117,AST-00043,SRC-025,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,15,in_progress
+ISS-00118,AST-00043,SRC-025,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,5,in_progress
+ISS-00123,AST-00046,SRC-086,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,15,resolved
+ISS-00124,AST-00046,SRC-086,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,10,in_progress
+ISS-00125,AST-00046,SRC-086,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,5,in_progress
+ISS-00126,AST-00046,SRC-086,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,resolved
+ISS-00129,AST-00048,SRC-049,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,15,blocked
+ISS-00130,AST-00048,SRC-049,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,in_progress
+ISS-00131,AST-00048,SRC-049,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,15,open
+ISS-00142,AST-00052,SRC-055,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,in_progress
+ISS-00145,AST-00053,SRC-091,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,5,in_progress
+ISS-00154,AST-00056,SRC-015,Fraud Signals,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,open
+ISS-00173,AST-00065,SRC-038,Device Intelligence,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,open
+ISS-00179,AST-00067,SRC-096,Business Registry,stale_source,P1,False,160,Refresh or remove stale retrieval source,Knowledge Manager,15,open
+ISS-00180,AST-00067,SRC-096,Business Registry,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,15,open
+ISS-00181,AST-00067,SRC-096,Business Registry,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,10,open
+ISS-00182,AST-00067,SRC-096,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,open
+ISS-00184,AST-00068,SRC-080,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-00193,AST-00072,SRC-054,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Source Owner,15,blocked
+ISS-00194,AST-00072,SRC-054,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,5,resolved
+ISS-00195,AST-00072,SRC-054,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,5,in_progress
+ISS-00196,AST-00072,SRC-054,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,resolved
+ISS-00197,AST-00072,SRC-054,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-00205,AST-00075,SRC-039,Fraud Signals,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,resolved
+ISS-00210,AST-00078,SRC-042,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,5,open
+ISS-00211,AST-00078,SRC-042,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,20,open
+ISS-00212,AST-00078,SRC-042,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,20,open
+ISS-00213,AST-00079,SRC-032,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,10,resolved
+ISS-00214,AST-00079,SRC-032,Compliance Policy,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,blocked
+ISS-00215,AST-00079,SRC-032,Compliance Policy,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Knowledge Manager,15,open
+ISS-00216,AST-00079,SRC-032,Compliance Policy,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,15,in_progress
+ISS-00223,AST-00083,SRC-072,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,15,blocked
+ISS-00224,AST-00083,SRC-072,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,in_progress
+ISS-00225,AST-00083,SRC-072,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,5,blocked
+ISS-00226,AST-00083,SRC-072,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,in_progress
+ISS-00229,AST-00085,SRC-046,Identity Verification,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,10,in_progress
+ISS-00230,AST-00085,SRC-046,Identity Verification,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,10,open
+ISS-00231,AST-00085,SRC-046,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,15,in_progress
+ISS-00232,AST-00085,SRC-046,Identity Verification,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,15,in_progress
+ISS-00235,AST-00087,SRC-051,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,10,resolved
+ISS-00236,AST-00087,SRC-051,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,20,open
+ISS-00237,AST-00087,SRC-051,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,10,open
+ISS-00238,AST-00087,SRC-051,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,15,blocked
+ISS-00239,AST-00087,SRC-051,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,5,in_progress
+ISS-00249,AST-00092,SRC-004,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,20,in_progress
+ISS-00250,AST-00093,SRC-063,Customer Risk Notes,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,15,open
+ISS-00251,AST-00093,SRC-063,Customer Risk Notes,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,5,in_progress
+ISS-00252,AST-00093,SRC-063,Customer Risk Notes,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,5,open
+ISS-00253,AST-00093,SRC-063,Customer Risk Notes,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,open
+ISS-00255,AST-00094,SRC-027,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-00264,AST-00098,SRC-045,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-00273,AST-00102,SRC-092,Fraud Signals,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,resolved
+ISS-00278,AST-00104,SRC-067,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,blocked
+ISS-00279,AST-00105,SRC-020,Device Intelligence,stale_source,P1,False,160,Refresh or remove stale retrieval source,Knowledge Manager,15,open
+ISS-00280,AST-00105,SRC-020,Device Intelligence,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,10,blocked
+ISS-00281,AST-00105,SRC-020,Device Intelligence,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,5,open
+ISS-00282,AST-00105,SRC-020,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,15,in_progress
+ISS-00283,AST-00105,SRC-020,Device Intelligence,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,resolved
+ISS-00284,AST-00106,SRC-056,Business Registry,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,10,open
+ISS-00285,AST-00106,SRC-056,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,in_progress
+ISS-00286,AST-00106,SRC-056,Business Registry,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-00287,AST-00107,SRC-051,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,15,in_progress
+ISS-00288,AST-00107,SRC-051,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-00289,AST-00107,SRC-051,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,15,resolved
+ISS-00290,AST-00108,SRC-025,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,10,in_progress
+ISS-00291,AST-00108,SRC-025,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,10,open
+ISS-00292,AST-00108,SRC-025,Compliance Policy,semantic_label_gap,P1,False,160,Assign approved retrieval category labels,Knowledge Manager,10,resolved
+ISS-00293,AST-00108,SRC-025,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,5,blocked
+ISS-00294,AST-00108,SRC-025,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,resolved
+ISS-00301,AST-00111,SRC-027,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,in_progress
+ISS-00306,AST-00113,SRC-047,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-00312,AST-00115,SRC-026,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,in_progress
+ISS-00319,AST-00118,SRC-077,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-00326,AST-00121,SRC-073,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,resolved
+ISS-00343,AST-00129,SRC-090,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,20,open
+ISS-00346,AST-00131,SRC-022,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,10,in_progress
+ISS-00347,AST-00131,SRC-022,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,10,in_progress
+ISS-00348,AST-00131,SRC-022,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,20,open
+ISS-00349,AST-00131,SRC-022,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,5,in_progress
+ISS-00355,AST-00135,SRC-049,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,10,open
+ISS-00356,AST-00135,SRC-049,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-00357,AST-00135,SRC-049,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,20,in_progress
+ISS-00358,AST-00136,SRC-066,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,5,blocked
+ISS-00360,AST-00136,SRC-066,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,5,open
+ISS-00361,AST-00137,SRC-090,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,5,open
+ISS-00362,AST-00137,SRC-090,Compliance Policy,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,10,in_progress
+ISS-00363,AST-00137,SRC-090,Compliance Policy,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,resolved
+ISS-00368,AST-00139,SRC-014,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,blocked
+ISS-00374,AST-00142,SRC-025,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,10,in_progress
+ISS-00375,AST-00142,SRC-025,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,5,blocked
+ISS-00376,AST-00142,SRC-025,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,resolved
+ISS-00380,AST-00143,SRC-026,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,open
+ISS-00385,AST-00144,SRC-080,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,blocked
+ISS-00391,AST-00146,SRC-040,Fraud Signals,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,in_progress
+ISS-00393,AST-00147,SRC-072,Identity Verification,stale_source,P1,False,160,Refresh or remove stale retrieval source,Knowledge Manager,5,in_progress
+ISS-00394,AST-00147,SRC-072,Identity Verification,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,5,open
+ISS-00395,AST-00147,SRC-072,Identity Verification,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,5,in_progress
+ISS-00396,AST-00147,SRC-072,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,resolved
+ISS-00406,AST-00154,SRC-089,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,15,open
+ISS-00407,AST-00154,SRC-089,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,5,open
+ISS-00408,AST-00154,SRC-089,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,10,in_progress
+ISS-00409,AST-00154,SRC-089,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-00418,AST-00159,SRC-034,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-00422,AST-00161,SRC-083,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,open
+ISS-00423,AST-00161,SRC-083,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,15,in_progress
+ISS-00424,AST-00161,SRC-083,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-00425,AST-00161,SRC-083,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,in_progress
+ISS-00430,AST-00163,SRC-049,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-00433,AST-00165,SRC-060,Fraud Signals,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,15,open
+ISS-00434,AST-00165,SRC-060,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,20,open
+ISS-00435,AST-00165,SRC-060,Fraud Signals,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,5,in_progress
+ISS-00439,AST-00166,SRC-034,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-00453,AST-00172,SRC-004,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,in_progress
+ISS-00464,AST-00177,SRC-026,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-00466,AST-00178,SRC-010,Sanctions Screening,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,20,open
+ISS-00467,AST-00178,SRC-010,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,5,open
+ISS-00468,AST-00178,SRC-010,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,resolved
+ISS-00469,AST-00178,SRC-010,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,15,open
+ISS-00470,AST-00179,SRC-082,Business Registry,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,15,open
+ISS-00471,AST-00179,SRC-082,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-00472,AST-00179,SRC-082,Business Registry,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,5,resolved
+ISS-00473,AST-00180,SRC-083,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,10,open
+ISS-00474,AST-00180,SRC-083,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,in_progress
+ISS-00475,AST-00180,SRC-083,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-00479,AST-00182,SRC-013,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,blocked
+ISS-00480,AST-00182,SRC-013,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,in_progress
+ISS-00481,AST-00182,SRC-013,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,in_progress
+ISS-00488,AST-00186,SRC-062,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,5,open
+ISS-00489,AST-00186,SRC-062,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,15,open
+ISS-00490,AST-00186,SRC-062,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,10,resolved
+ISS-00491,AST-00186,SRC-062,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,15,in_progress
+ISS-00492,AST-00186,SRC-062,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,5,resolved
+ISS-00505,AST-00191,SRC-027,Fraud Signals,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,in_progress
+ISS-00515,AST-00195,SRC-007,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,resolved
+ISS-00523,AST-00198,SRC-042,Case Operations,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,5,resolved
+ISS-00524,AST-00198,SRC-042,Case Operations,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,15,open
+ISS-00539,AST-00206,SRC-092,Fraud Signals,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,10,open
+ISS-00540,AST-00206,SRC-092,Fraud Signals,semantic_label_gap,P1,False,160,Assign approved retrieval category labels,Source Owner,10,resolved
+ISS-00541,AST-00206,SRC-092,Fraud Signals,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,10,in_progress
+ISS-00542,AST-00206,SRC-092,Fraud Signals,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,5,open
+ISS-00551,AST-00211,SRC-064,Device Intelligence,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,15,blocked
+ISS-00552,AST-00211,SRC-064,Device Intelligence,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,5,blocked
+ISS-00553,AST-00211,SRC-064,Device Intelligence,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Governance Partner,15,open
+ISS-00554,AST-00211,SRC-064,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,open
+ISS-00555,AST-00211,SRC-064,Device Intelligence,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,blocked
+ISS-00559,AST-00213,SRC-070,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-00564,AST-00215,SRC-054,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,10,open
+ISS-00565,AST-00215,SRC-054,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,10,open
+ISS-00566,AST-00215,SRC-054,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Data Steward,15,open
+ISS-00567,AST-00215,SRC-054,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,in_progress
+ISS-00568,AST-00215,SRC-054,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,15,open
+ISS-00581,AST-00221,SRC-006,Sanctions Screening,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,in_progress
+ISS-00593,AST-00226,SRC-007,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,in_progress
+ISS-00596,AST-00228,SRC-083,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,20,blocked
+ISS-00597,AST-00228,SRC-083,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,5,open
+ISS-00598,AST-00228,SRC-083,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-00601,AST-00229,SRC-017,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-00605,AST-00231,SRC-067,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-00607,AST-00232,SRC-082,Business Registry,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,5,open
+ISS-00608,AST-00232,SRC-082,Business Registry,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,5,resolved
+ISS-00609,AST-00232,SRC-082,Business Registry,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,5,in_progress
+ISS-00610,AST-00232,SRC-082,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,resolved
+ISS-00611,AST-00232,SRC-082,Business Registry,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-00618,AST-00236,SRC-014,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,blocked
+ISS-00623,AST-00237,SRC-023,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,5,open
+ISS-00628,AST-00239,SRC-049,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,20,open
+ISS-00629,AST-00239,SRC-049,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,10,open
+ISS-00630,AST-00239,SRC-049,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,15,resolved
+ISS-00631,AST-00239,SRC-049,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,5,open
+ISS-00642,AST-00245,SRC-079,Fraud Signals,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,5,open
+ISS-00644,AST-00246,SRC-054,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,10,resolved
+ISS-00645,AST-00246,SRC-054,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,10,open
+ISS-00646,AST-00246,SRC-054,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,10,blocked
+ISS-00647,AST-00246,SRC-054,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,20,open
+ISS-00660,AST-00253,SRC-086,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,15,open
+ISS-00661,AST-00253,SRC-086,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,10,open
+ISS-00662,AST-00253,SRC-086,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,20,blocked
+ISS-00663,AST-00253,SRC-086,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-00664,AST-00253,SRC-086,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-00670,AST-00256,SRC-026,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,blocked
+ISS-00675,AST-00257,SRC-024,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,15,open
+ISS-00677,AST-00258,SRC-029,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-00683,AST-00259,SRC-095,Case Operations,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,in_progress
+ISS-00687,AST-00263,SRC-007,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,open
+ISS-00689,AST-00264,SRC-072,Identity Verification,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,5,blocked
+ISS-00690,AST-00264,SRC-072,Identity Verification,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,5,open
+ISS-00691,AST-00264,SRC-072,Identity Verification,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,5,resolved
+ISS-00692,AST-00264,SRC-072,Identity Verification,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-00704,AST-00270,SRC-031,Case Operations,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-00708,AST-00272,SRC-051,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,15,open
+ISS-00709,AST-00272,SRC-051,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,5,open
+ISS-00710,AST-00272,SRC-051,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,10,open
+ISS-00711,AST-00272,SRC-051,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,resolved
+ISS-00719,AST-00276,SRC-030,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,15,open
+ISS-00736,AST-00282,SRC-053,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-00741,AST-00283,SRC-002,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,resolved
+ISS-00746,AST-00286,SRC-035,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,15,open
+ISS-00747,AST-00286,SRC-035,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,15,resolved
+ISS-00748,AST-00286,SRC-035,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,15,in_progress
+ISS-00757,AST-00290,SRC-027,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,blocked
+ISS-00764,AST-00292,SRC-068,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-00770,AST-00294,SRC-047,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,blocked
+ISS-00780,AST-00298,SRC-067,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,in_progress
+ISS-00789,AST-00301,SRC-037,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,resolved
+ISS-00798,AST-00305,SRC-060,Fraud Signals,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,10,resolved
+ISS-00799,AST-00305,SRC-060,Fraud Signals,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,5,in_progress
+ISS-00800,AST-00305,SRC-060,Fraud Signals,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,open
+ISS-00801,AST-00305,SRC-060,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,blocked
+ISS-00802,AST-00305,SRC-060,Fraud Signals,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,5,in_progress
+ISS-00805,AST-00306,SRC-081,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,open
+ISS-00812,AST-00310,SRC-049,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,15,in_progress
+ISS-00813,AST-00310,SRC-049,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,15,blocked
+ISS-00814,AST-00310,SRC-049,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,10,in_progress
+ISS-00815,AST-00310,SRC-049,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,5,open
+ISS-00816,AST-00311,SRC-071,Business Registry,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,10,open
+ISS-00817,AST-00311,SRC-071,Business Registry,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,10,in_progress
+ISS-00818,AST-00311,SRC-071,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-00819,AST-00311,SRC-071,Business Registry,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,5,in_progress
+ISS-00820,AST-00312,SRC-025,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,5,in_progress
+ISS-00821,AST-00312,SRC-025,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,10,in_progress
+ISS-00822,AST-00312,SRC-025,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,10,in_progress
+ISS-00823,AST-00312,SRC-025,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,blocked
+ISS-00825,AST-00313,SRC-081,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,blocked
+ISS-00828,AST-00315,SRC-025,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Source Owner,15,in_progress
+ISS-00829,AST-00315,SRC-025,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,5,open
+ISS-00830,AST-00315,SRC-025,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-00832,AST-00317,SRC-038,Device Intelligence,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,5,resolved
+ISS-00833,AST-00317,SRC-038,Device Intelligence,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,10,blocked
+ISS-00834,AST-00317,SRC-038,Device Intelligence,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,10,resolved
+ISS-00835,AST-00317,SRC-038,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-00836,AST-00317,SRC-038,Device Intelligence,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,5,open
+ISS-00837,AST-00318,SRC-032,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,15,in_progress
+ISS-00838,AST-00318,SRC-032,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,blocked
+ISS-00839,AST-00318,SRC-032,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,15,resolved
+ISS-00840,AST-00319,SRC-086,Identity Verification,stale_source,P1,False,160,Refresh or remove stale retrieval source,Knowledge Manager,10,in_progress
+ISS-00841,AST-00319,SRC-086,Identity Verification,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,10,open
+ISS-00842,AST-00319,SRC-086,Identity Verification,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,5,open
+ISS-00843,AST-00319,SRC-086,Identity Verification,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,in_progress
+ISS-00844,AST-00320,SRC-062,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,5,resolved
+ISS-00846,AST-00320,SRC-062,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,blocked
+ISS-00850,AST-00323,SRC-032,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,10,open
+ISS-00851,AST-00323,SRC-032,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,blocked
+ISS-00852,AST-00323,SRC-032,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,resolved
+ISS-00857,AST-00326,SRC-042,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,15,in_progress
+ISS-00858,AST-00326,SRC-042,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-00859,AST-00326,SRC-042,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-00861,AST-00327,SRC-016,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-00873,AST-00333,SRC-062,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,20,in_progress
+ISS-00874,AST-00333,SRC-062,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,15,open
+ISS-00875,AST-00333,SRC-062,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,blocked
+ISS-00876,AST-00333,SRC-062,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,15,open
+ISS-00877,AST-00334,SRC-038,Device Intelligence,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,15,open
+ISS-00878,AST-00334,SRC-038,Device Intelligence,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,15,open
+ISS-00879,AST-00334,SRC-038,Device Intelligence,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,10,in_progress
+ISS-00880,AST-00334,SRC-038,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,20,in_progress
+ISS-00881,AST-00334,SRC-038,Device Intelligence,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,open
+ISS-00887,AST-00337,SRC-037,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-00900,AST-00342,SRC-054,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,resolved
+ISS-00906,AST-00345,SRC-087,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,open
+ISS-00907,AST-00345,SRC-087,Sanctions Screening,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Source Owner,10,in_progress
+ISS-00913,AST-00348,SRC-088,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-00915,AST-00349,SRC-020,Device Intelligence,stale_source,P1,False,160,Refresh or remove stale retrieval source,Source Owner,5,blocked
+ISS-00916,AST-00349,SRC-020,Device Intelligence,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,10,resolved
+ISS-00917,AST-00349,SRC-020,Device Intelligence,semantic_label_gap,P1,False,160,Assign approved retrieval category labels,Knowledge Manager,10,open
+ISS-00918,AST-00349,SRC-020,Device Intelligence,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,in_progress
+ISS-00923,AST-00353,SRC-022,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,15,resolved
+ISS-00924,AST-00353,SRC-022,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,5,in_progress
+ISS-00925,AST-00353,SRC-022,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,in_progress
+ISS-00926,AST-00353,SRC-022,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,5,open
+ISS-00930,AST-00354,SRC-067,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,in_progress
+ISS-00936,AST-00357,SRC-068,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,blocked
+ISS-00941,AST-00359,SRC-057,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-00959,AST-00367,SRC-041,Fraud Signals,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,10,in_progress
+ISS-00960,AST-00367,SRC-041,Fraud Signals,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,5,resolved
+ISS-00961,AST-00367,SRC-041,Fraud Signals,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,5,blocked
+ISS-00962,AST-00367,SRC-041,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,resolved
+ISS-00963,AST-00367,SRC-041,Fraud Signals,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,open
+ISS-00969,AST-00370,SRC-047,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,blocked
+ISS-00974,AST-00371,SRC-028,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,blocked
+ISS-00981,AST-00374,SRC-059,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,15,resolved
+ISS-00986,AST-00376,SRC-049,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,10,open
+ISS-00987,AST-00376,SRC-049,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,15,resolved
+ISS-00988,AST-00376,SRC-049,Compliance Policy,semantic_label_gap,P1,False,160,Assign approved retrieval category labels,Source Owner,5,blocked
+ISS-00989,AST-00377,SRC-063,Customer Risk Notes,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,15,open
+ISS-00990,AST-00377,SRC-063,Customer Risk Notes,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Data Steward,5,blocked
+ISS-00991,AST-00377,SRC-063,Customer Risk Notes,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-01009,AST-00386,SRC-019,Customer Risk Notes,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,20,open
+ISS-01010,AST-00386,SRC-019,Customer Risk Notes,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,5,resolved
+ISS-01011,AST-00386,SRC-019,Customer Risk Notes,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-01012,AST-00387,SRC-011,Customer Risk Notes,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,5,in_progress
+ISS-01035,AST-00397,SRC-014,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,in_progress
+ISS-01041,AST-00402,SRC-094,Case Operations,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,10,open
+ISS-01042,AST-00402,SRC-094,Case Operations,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,15,in_progress
+ISS-01043,AST-00402,SRC-094,Case Operations,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,5,in_progress
+ISS-01044,AST-00402,SRC-094,Case Operations,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,open
+ISS-01049,AST-00405,SRC-042,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,10,in_progress
+ISS-01050,AST-00405,SRC-042,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,5,open
+ISS-01051,AST-00405,SRC-042,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,10,open
+ISS-01056,AST-00408,SRC-050,Sanctions Screening,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,5,blocked
+ISS-01057,AST-00408,SRC-050,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,10,resolved
+ISS-01058,AST-00408,SRC-050,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,10,in_progress
+ISS-01059,AST-00408,SRC-050,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,blocked
+ISS-01065,AST-00411,SRC-093,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,blocked
+ISS-01077,AST-00418,SRC-074,Customer Risk Notes,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,20,open
+ISS-01078,AST-00418,SRC-074,Customer Risk Notes,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,15,open
+ISS-01079,AST-00418,SRC-074,Customer Risk Notes,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,10,resolved
+ISS-01083,AST-00419,SRC-017,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,20,open
+ISS-01086,AST-00420,SRC-047,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,blocked
+ISS-01098,AST-00425,SRC-013,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,in_progress
+ISS-01099,AST-00425,SRC-013,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,5,open
+ISS-01110,AST-00431,SRC-035,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,5,open
+ISS-01111,AST-00431,SRC-035,Compliance Policy,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,15,in_progress
+ISS-01112,AST-00431,SRC-035,Compliance Policy,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,10,in_progress
+ISS-01113,AST-00431,SRC-035,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,resolved
+ISS-01128,AST-00438,SRC-005,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,20,open
+ISS-01132,AST-00440,SRC-071,Business Registry,stale_source,P1,False,160,Refresh or remove stale retrieval source,Source Owner,10,resolved
+ISS-01133,AST-00440,SRC-071,Business Registry,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,5,resolved
+ISS-01134,AST-00440,SRC-071,Business Registry,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,5,in_progress
+ISS-01135,AST-00440,SRC-071,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-01136,AST-00440,SRC-071,Business Registry,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,15,in_progress
+ISS-01139,AST-00441,SRC-095,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,in_progress
+ISS-01141,AST-00442,SRC-090,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,15,resolved
+ISS-01142,AST-00442,SRC-090,Compliance Policy,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,10,open
+ISS-01143,AST-00442,SRC-090,Compliance Policy,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Governance Partner,10,open
+ISS-01144,AST-00442,SRC-090,Compliance Policy,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,5,open
+ISS-01145,AST-00442,SRC-090,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-01147,AST-00443,SRC-040,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-01152,AST-00444,SRC-073,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-01159,AST-00446,SRC-008,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,in_progress
+ISS-01163,AST-00447,SRC-031,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,open
+ISS-01167,AST-00449,SRC-089,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,10,blocked
+ISS-01168,AST-00449,SRC-089,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,5,open
+ISS-01169,AST-00449,SRC-089,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,open
+ISS-01170,AST-00449,SRC-089,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-01177,AST-00452,SRC-060,Fraud Signals,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,open
+ISS-01186,AST-00457,SRC-083,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,5,open
+ISS-01187,AST-00457,SRC-083,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,10,resolved
+ISS-01188,AST-00457,SRC-083,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-01189,AST-00457,SRC-083,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,in_progress
+ISS-01191,AST-00458,SRC-049,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,in_progress
+ISS-01197,AST-00461,SRC-030,Fraud Signals,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,resolved
+ISS-01199,AST-00462,SRC-066,Case Operations,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,10,open
+ISS-01201,AST-00462,SRC-066,Case Operations,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,5,open
+ISS-01203,AST-00464,SRC-072,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,5,resolved
+ISS-01204,AST-00464,SRC-072,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,15,open
+ISS-01205,AST-00464,SRC-072,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,5,open
+ISS-01206,AST-00464,SRC-072,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-01207,AST-00464,SRC-072,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,open
+ISS-01215,AST-00467,SRC-034,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-01225,AST-00470,SRC-029,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,in_progress
+ISS-01230,AST-00472,SRC-084,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Knowledge Manager,20,in_progress
+ISS-01231,AST-00472,SRC-084,Sanctions Screening,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,15,open
+ISS-01232,AST-00472,SRC-084,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,15,blocked
+ISS-01233,AST-00472,SRC-084,Sanctions Screening,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-01234,AST-00472,SRC-084,Sanctions Screening,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,15,in_progress
+ISS-01238,AST-00473,SRC-069,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,blocked
+ISS-01243,AST-00474,SRC-014,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,open
+ISS-01249,AST-00478,SRC-038,Device Intelligence,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,10,open
+ISS-01250,AST-00478,SRC-038,Device Intelligence,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,5,resolved
+ISS-01251,AST-00478,SRC-038,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,15,blocked
+ISS-01252,AST-00478,SRC-038,Device Intelligence,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,in_progress
+ISS-01265,AST-00483,SRC-043,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,open
+ISS-01267,AST-00484,SRC-082,Business Registry,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,10,resolved
+ISS-01268,AST-00484,SRC-082,Business Registry,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,5,open
+ISS-01269,AST-00484,SRC-082,Business Registry,semantic_label_gap,P1,False,160,Assign approved retrieval category labels,Knowledge Manager,5,open
+ISS-01270,AST-00484,SRC-082,Business Registry,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,5,in_progress
+ISS-01271,AST-00484,SRC-082,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,in_progress
+ISS-01278,AST-00487,SRC-049,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,5,blocked
+ISS-01279,AST-00487,SRC-049,Compliance Policy,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,5,resolved
+ISS-01280,AST-00487,SRC-049,Compliance Policy,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,blocked
+ISS-01281,AST-00487,SRC-049,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,in_progress
+ISS-01284,AST-00489,SRC-032,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,10,blocked
+ISS-01285,AST-00489,SRC-032,Compliance Policy,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,open
+ISS-01286,AST-00489,SRC-032,Compliance Policy,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,15,open
+ISS-01287,AST-00489,SRC-032,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,in_progress
+ISS-01291,AST-00491,SRC-020,Device Intelligence,stale_source,P1,False,160,Refresh or remove stale retrieval source,Source Owner,5,open
+ISS-01292,AST-00491,SRC-020,Device Intelligence,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,5,blocked
+ISS-01293,AST-00491,SRC-020,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-01294,AST-00491,SRC-020,Device Intelligence,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,5,open
+ISS-01300,AST-00494,SRC-025,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,5,in_progress
+ISS-01301,AST-00494,SRC-025,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,5,resolved
+ISS-01302,AST-00494,SRC-025,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Data Steward,20,in_progress
+ISS-01303,AST-00494,SRC-025,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,15,open
+ISS-01311,AST-00497,SRC-006,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-01325,AST-00503,SRC-037,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-01328,AST-00505,SRC-086,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,5,in_progress
+ISS-01329,AST-00505,SRC-086,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,5,in_progress
+ISS-01338,AST-00509,SRC-008,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,resolved
+ISS-01345,AST-00513,SRC-046,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,15,in_progress
+ISS-01346,AST-00513,SRC-046,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,in_progress
+ISS-01347,AST-00513,SRC-046,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,15,blocked
+ISS-01350,AST-00515,SRC-041,Fraud Signals,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,15,blocked
+ISS-01351,AST-00515,SRC-041,Fraud Signals,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,10,open
+ISS-01352,AST-00515,SRC-041,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,blocked
+ISS-01353,AST-00515,SRC-041,Fraud Signals,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,in_progress
+ISS-01357,AST-00517,SRC-004,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,resolved
+ISS-01367,AST-00521,SRC-088,Customer Risk Notes,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,20,open
+ISS-01368,AST-00522,SRC-071,Business Registry,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,5,in_progress
+ISS-01369,AST-00522,SRC-071,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,10,in_progress
+ISS-01373,AST-00523,SRC-046,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-01375,AST-00525,SRC-096,Business Registry,stale_source,P1,False,160,Refresh or remove stale retrieval source,Knowledge Manager,5,open
+ISS-01376,AST-00525,SRC-096,Business Registry,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,15,in_progress
+ISS-01377,AST-00525,SRC-096,Business Registry,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,15,in_progress
+ISS-01378,AST-00525,SRC-096,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-01379,AST-00525,SRC-096,Business Registry,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,5,resolved
+ISS-01380,AST-00526,SRC-041,Fraud Signals,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,10,blocked
+ISS-01382,AST-00526,SRC-041,Fraud Signals,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,15,open
+ISS-01385,AST-00528,SRC-089,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,5,open
+ISS-01386,AST-00528,SRC-089,Case Operations,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Governance Partner,10,open
+ISS-01387,AST-00528,SRC-089,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-01388,AST-00528,SRC-089,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-01395,AST-00531,SRC-073,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,20,open
+ISS-01400,AST-00534,SRC-032,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,5,blocked
+ISS-01401,AST-00534,SRC-032,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,10,open
+ISS-01402,AST-00534,SRC-032,Compliance Policy,semantic_label_gap,P1,False,160,Assign approved retrieval category labels,Source Owner,20,in_progress
+ISS-01403,AST-00534,SRC-032,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,5,resolved
+ISS-01406,AST-00536,SRC-020,Device Intelligence,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,10,open
+ISS-01407,AST-00536,SRC-020,Device Intelligence,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Data Steward,5,open
+ISS-01408,AST-00536,SRC-020,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,5,resolved
+ISS-01409,AST-00536,SRC-020,Device Intelligence,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,5,resolved
+ISS-01422,AST-00543,SRC-009,Customer Risk Notes,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,10,open
+ISS-01423,AST-00543,SRC-009,Customer Risk Notes,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,5,blocked
+ISS-01424,AST-00543,SRC-009,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,20,resolved
+ISS-01433,AST-00548,SRC-075,Sanctions Screening,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,10,open
+ISS-01434,AST-00548,SRC-075,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,10,resolved
+ISS-01435,AST-00548,SRC-075,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,resolved
+ISS-01436,AST-00548,SRC-075,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,15,open
+ISS-01437,AST-00549,SRC-089,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,5,in_progress
+ISS-01438,AST-00549,SRC-089,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,blocked
+ISS-01439,AST-00549,SRC-089,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,15,resolved
+ISS-01440,AST-00550,SRC-054,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,15,open
+ISS-01442,AST-00550,SRC-054,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,open
+ISS-01449,AST-00553,SRC-077,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,blocked
+ISS-01457,AST-00557,SRC-050,Sanctions Screening,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,15,open
+ISS-01458,AST-00557,SRC-050,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,5,in_progress
+ISS-01459,AST-00557,SRC-050,Sanctions Screening,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Knowledge Manager,20,open
+ISS-01460,AST-00557,SRC-050,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,15,in_progress
+ISS-01468,AST-00560,SRC-057,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-01471,AST-00563,SRC-058,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,5,open
+ISS-01472,AST-00563,SRC-058,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,in_progress
+ISS-01473,AST-00563,SRC-058,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,5,open
+ISS-01474,AST-00564,SRC-075,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,5,open
+ISS-01478,AST-00565,SRC-084,Sanctions Screening,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,10,blocked
+ISS-01480,AST-00566,SRC-048,Fraud Signals,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,10,open
+ISS-01481,AST-00566,SRC-048,Fraud Signals,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,15,open
+ISS-01482,AST-00566,SRC-048,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-01483,AST-00567,SRC-042,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,5,resolved
+ISS-01484,AST-00567,SRC-042,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,15,in_progress
+ISS-01485,AST-00567,SRC-042,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,open
+ISS-01486,AST-00567,SRC-042,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,in_progress
+ISS-01487,AST-00567,SRC-042,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,5,in_progress
+ISS-01496,AST-00573,SRC-086,Identity Verification,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,15,blocked
+ISS-01497,AST-00573,SRC-086,Identity Verification,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,5,open
+ISS-01498,AST-00573,SRC-086,Identity Verification,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,15,in_progress
+ISS-01499,AST-00573,SRC-086,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,in_progress
+ISS-01500,AST-00573,SRC-086,Identity Verification,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,15,in_progress
+ISS-01506,AST-00575,SRC-042,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,20,in_progress
+ISS-01510,AST-00576,SRC-080,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,resolved
+ISS-01515,AST-00577,SRC-034,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-01517,AST-00578,SRC-013,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,15,in_progress
+ISS-01523,AST-00580,SRC-043,Case Operations,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,15,blocked
+ISS-01525,AST-00581,SRC-094,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,10,blocked
+ISS-01526,AST-00581,SRC-094,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,open
+ISS-01527,AST-00581,SRC-094,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-01528,AST-00581,SRC-094,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,15,resolved
+ISS-01534,AST-00584,SRC-023,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-01538,AST-00585,SRC-028,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,15,resolved
+ISS-01539,AST-00586,SRC-090,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,5,open
+ISS-01540,AST-00586,SRC-090,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,15,in_progress
+ISS-01541,AST-00586,SRC-090,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-01542,AST-00586,SRC-090,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,5,open
+ISS-01549,AST-00589,SRC-004,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,15,open
+ISS-01563,AST-00595,SRC-004,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-01568,AST-00596,SRC-039,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,blocked
+ISS-01574,AST-00600,SRC-084,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,10,blocked
+ISS-01575,AST-00600,SRC-084,Sanctions Screening,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,10,resolved
+ISS-01576,AST-00600,SRC-084,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,15,open
+ISS-01577,AST-00600,SRC-084,Sanctions Screening,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,10,blocked
+ISS-01578,AST-00600,SRC-084,Sanctions Screening,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-01591,AST-00607,SRC-026,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,in_progress
+ISS-01593,AST-00608,SRC-062,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,5,open
+ISS-01594,AST-00608,SRC-062,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,open
+ISS-01595,AST-00608,SRC-062,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,blocked
+ISS-01596,AST-00608,SRC-062,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-01608,AST-00613,SRC-069,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,resolved
+ISS-01619,AST-00618,SRC-060,Fraud Signals,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,20,open
+ISS-01620,AST-00618,SRC-060,Fraud Signals,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,5,open
+ISS-01621,AST-00618,SRC-060,Fraud Signals,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,10,in_progress
+ISS-01622,AST-00618,SRC-060,Fraud Signals,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,open
+ISS-01632,AST-00625,SRC-009,Customer Risk Notes,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,15,resolved
+ISS-01633,AST-00625,SRC-009,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,resolved
+ISS-01634,AST-00625,SRC-009,Customer Risk Notes,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-01641,AST-00627,SRC-026,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-01654,AST-00633,SRC-080,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-01660,AST-00636,SRC-025,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Source Owner,5,in_progress
+ISS-01661,AST-00636,SRC-025,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,10,open
+ISS-01662,AST-00636,SRC-025,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Data Steward,10,open
+ISS-01663,AST-00636,SRC-025,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,10,resolved
+ISS-01664,AST-00636,SRC-025,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,in_progress
+ISS-01666,AST-00637,SRC-017,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,in_progress
+ISS-01668,AST-00638,SRC-042,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,20,in_progress
+ISS-01669,AST-00638,SRC-042,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,15,open
+ISS-01670,AST-00638,SRC-042,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,5,in_progress
+ISS-01671,AST-00638,SRC-042,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,resolved
+ISS-01672,AST-00638,SRC-042,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,resolved
+ISS-01673,AST-00639,SRC-075,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Source Owner,5,in_progress
+ISS-01674,AST-00639,SRC-075,Sanctions Screening,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,10,in_progress
+ISS-01675,AST-00639,SRC-075,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,15,blocked
+ISS-01676,AST-00639,SRC-075,Sanctions Screening,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,blocked
+ISS-01677,AST-00639,SRC-075,Sanctions Screening,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,5,in_progress
+ISS-01680,AST-00641,SRC-032,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,5,in_progress
+ISS-01681,AST-00641,SRC-032,Compliance Policy,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,10,resolved
+ISS-01682,AST-00641,SRC-032,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,15,resolved
+ISS-01688,AST-00644,SRC-069,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,in_progress
+ISS-01692,AST-00645,SRC-079,Fraud Signals,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,5,blocked
+ISS-01705,AST-00649,SRC-016,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-01707,AST-00652,SRC-094,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,5,open
+ISS-01708,AST-00652,SRC-094,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-01709,AST-00652,SRC-094,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,15,open
+ISS-01716,AST-00655,SRC-085,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,20,resolved
+ISS-01730,AST-00660,SRC-027,Fraud Signals,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,resolved
+ISS-01735,AST-00661,SRC-016,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-01737,AST-00662,SRC-072,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,10,blocked
+ISS-01738,AST-00662,SRC-072,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,open
+ISS-01747,AST-00665,SRC-078,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,in_progress
+ISS-01771,AST-00678,SRC-031,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-01773,AST-00679,SRC-025,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Knowledge Manager,20,open
+ISS-01774,AST-00679,SRC-025,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,20,in_progress
+ISS-01775,AST-00679,SRC-025,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,5,open
+ISS-01776,AST-00679,SRC-025,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,in_progress
+ISS-01778,AST-00681,SRC-092,Fraud Signals,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,15,blocked
+ISS-01779,AST-00681,SRC-092,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-01780,AST-00681,SRC-092,Fraud Signals,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,15,open
+ISS-01784,AST-00682,SRC-069,Sanctions Screening,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,15,in_progress
+ISS-01787,AST-00683,SRC-023,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,10,in_progress
+ISS-01797,AST-00687,SRC-088,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,open
+ISS-01799,AST-00688,SRC-010,Sanctions Screening,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,15,open
+ISS-01800,AST-00688,SRC-010,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,5,blocked
+ISS-01801,AST-00688,SRC-010,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,resolved
+ISS-01806,AST-00691,SRC-082,Business Registry,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,15,in_progress
+ISS-01807,AST-00691,SRC-082,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,in_progress
+ISS-01808,AST-00691,SRC-082,Business Registry,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,open
+ISS-01809,AST-00692,SRC-082,Business Registry,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,5,resolved
+ISS-01810,AST-00692,SRC-082,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-01811,AST-00692,SRC-082,Business Registry,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,5,in_progress
+ISS-01814,AST-00694,SRC-004,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,open
+ISS-01816,AST-00695,SRC-038,Device Intelligence,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,15,in_progress
+ISS-01817,AST-00695,SRC-038,Device Intelligence,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,15,open
+ISS-01818,AST-00695,SRC-038,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,in_progress
+ISS-01821,AST-00696,SRC-026,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,in_progress
+ISS-01828,AST-00701,SRC-051,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,5,blocked
+ISS-01829,AST-00701,SRC-051,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,20,open
+ISS-01830,AST-00701,SRC-051,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,resolved
+ISS-01831,AST-00701,SRC-051,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,15,blocked
+ISS-01838,AST-00703,SRC-069,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-01851,AST-00708,SRC-045,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-01870,AST-00718,SRC-084,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Source Owner,10,in_progress
+ISS-01874,AST-00720,SRC-064,Device Intelligence,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,blocked
+ISS-01875,AST-00720,SRC-064,Device Intelligence,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,5,in_progress
+ISS-01876,AST-00720,SRC-064,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,in_progress
+ISS-01877,AST-00720,SRC-064,Device Intelligence,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,5,in_progress
+ISS-01879,AST-00721,SRC-078,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,blocked
+ISS-01883,AST-00723,SRC-050,Sanctions Screening,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,10,open
+ISS-01884,AST-00723,SRC-050,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-01885,AST-00723,SRC-050,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,5,open
+ISS-01890,AST-00725,SRC-014,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-01900,AST-00729,SRC-073,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,open
+ISS-01905,AST-00730,SRC-015,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,in_progress
+ISS-01908,AST-00731,SRC-095,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-01912,AST-00732,SRC-012,Business Registry,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,in_progress
+ISS-01916,AST-00734,SRC-051,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,open
+ISS-01917,AST-00734,SRC-051,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-01918,AST-00734,SRC-051,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,in_progress
+ISS-01924,AST-00739,SRC-042,Case Operations,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,10,in_progress
+ISS-01925,AST-00739,SRC-042,Case Operations,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,10,blocked
+ISS-01926,AST-00739,SRC-042,Case Operations,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,15,in_progress
+ISS-01927,AST-00739,SRC-042,Case Operations,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-01928,AST-00739,SRC-042,Case Operations,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,15,in_progress
+ISS-01929,AST-00740,SRC-020,Device Intelligence,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,5,resolved
+ISS-01930,AST-00740,SRC-020,Device Intelligence,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,10,blocked
+ISS-01931,AST-00740,SRC-020,Device Intelligence,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,10,resolved
+ISS-01932,AST-00740,SRC-020,Device Intelligence,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,5,open
+ISS-01936,AST-00741,SRC-055,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,blocked
+ISS-01943,AST-00744,SRC-030,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,open
+ISS-01945,AST-00745,SRC-089,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,5,open
+ISS-01946,AST-00745,SRC-089,Case Operations,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Source Owner,5,resolved
+ISS-01947,AST-00745,SRC-089,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-01948,AST-00745,SRC-089,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,15,in_progress
+ISS-01960,AST-00753,SRC-024,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,open
+ISS-01964,AST-00756,SRC-092,Fraud Signals,stale_source,P1,False,160,Refresh or remove stale retrieval source,Source Owner,20,resolved
+ISS-01965,AST-00756,SRC-092,Fraud Signals,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,10,in_progress
+ISS-01966,AST-00756,SRC-092,Fraud Signals,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,10,resolved
+ISS-01967,AST-00756,SRC-092,Fraud Signals,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,open
+ISS-01968,AST-00757,SRC-018,Business Registry,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,10,in_progress
+ISS-01969,AST-00757,SRC-018,Business Registry,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Knowledge Manager,15,blocked
+ISS-01970,AST-00757,SRC-018,Business Registry,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,10,resolved
+ISS-01971,AST-00757,SRC-018,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,resolved
+ISS-01976,AST-00760,SRC-048,Fraud Signals,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,15,open
+ISS-01977,AST-00760,SRC-048,Fraud Signals,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,5,open
+ISS-01978,AST-00760,SRC-048,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,15,open
+ISS-01979,AST-00760,SRC-048,Fraud Signals,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,resolved
+ISS-01984,AST-00762,SRC-026,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,blocked
+ISS-01990,AST-00764,SRC-091,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,blocked
+ISS-01992,AST-00766,SRC-042,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,15,open
+ISS-01993,AST-00766,SRC-042,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,10,in_progress
+ISS-01994,AST-00766,SRC-042,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,resolved
+ISS-01995,AST-00766,SRC-042,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,in_progress
+ISS-02000,AST-00768,SRC-014,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-02010,AST-00771,SRC-023,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,blocked
+ISS-02015,AST-00773,SRC-094,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,open
+ISS-02027,AST-00778,SRC-075,Sanctions Screening,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,5,blocked
+ISS-02028,AST-00778,SRC-075,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,in_progress
+ISS-02029,AST-00778,SRC-075,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,15,open
+ISS-02030,AST-00778,SRC-075,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-02032,AST-00779,SRC-081,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,in_progress
+ISS-02042,AST-00783,SRC-037,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,resolved
+ISS-02044,AST-00784,SRC-049,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,10,in_progress
+ISS-02045,AST-00784,SRC-049,Compliance Policy,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,10,in_progress
+ISS-02046,AST-00784,SRC-049,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,15,in_progress
+ISS-02047,AST-00784,SRC-049,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,15,in_progress
+ISS-02056,AST-00787,SRC-069,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,resolved
+ISS-02068,AST-00792,SRC-095,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,resolved
+ISS-02071,AST-00793,SRC-057,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,blocked
+ISS-02079,AST-00797,SRC-092,Fraud Signals,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,5,resolved
+ISS-02080,AST-00797,SRC-092,Fraud Signals,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Governance Partner,15,open
+ISS-02081,AST-00797,SRC-092,Fraud Signals,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,10,in_progress
+ISS-02082,AST-00798,SRC-010,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,5,in_progress
+ISS-02083,AST-00798,SRC-010,Sanctions Screening,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,5,open
+ISS-02084,AST-00798,SRC-010,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,20,in_progress
+ISS-02085,AST-00798,SRC-010,Sanctions Screening,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,20,in_progress
+ISS-02090,AST-00801,SRC-094,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,5,in_progress
+ISS-02091,AST-00801,SRC-094,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,20,blocked
+ISS-02092,AST-00801,SRC-094,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-02093,AST-00801,SRC-094,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,20,open
+ISS-02095,AST-00802,SRC-093,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,open
+ISS-02100,AST-00804,SRC-048,Fraud Signals,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,5,resolved
+ISS-02101,AST-00804,SRC-048,Fraud Signals,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,5,in_progress
+ISS-02102,AST-00804,SRC-048,Fraud Signals,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,10,blocked
+ISS-02103,AST-00804,SRC-048,Fraud Signals,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,open
+ISS-02104,AST-00805,SRC-018,Business Registry,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,10,resolved
+ISS-02105,AST-00805,SRC-018,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,in_progress
+ISS-02106,AST-00805,SRC-018,Business Registry,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,5,open
+ISS-02110,AST-00807,SRC-062,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,5,blocked
+ISS-02111,AST-00807,SRC-062,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,5,blocked
+ISS-02112,AST-00807,SRC-062,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,in_progress
+ISS-02113,AST-00807,SRC-062,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-02121,AST-00812,SRC-084,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Source Owner,10,open
+ISS-02122,AST-00812,SRC-084,Sanctions Screening,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,5,open
+ISS-02123,AST-00812,SRC-084,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,10,blocked
+ISS-02124,AST-00812,SRC-084,Sanctions Screening,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,resolved
+ISS-02129,AST-00815,SRC-081,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,in_progress
+ISS-02138,AST-00819,SRC-013,Identity Verification,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,15,in_progress
+ISS-02139,AST-00819,SRC-013,Identity Verification,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,5,blocked
+ISS-02140,AST-00819,SRC-013,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,open
+ISS-02141,AST-00819,SRC-013,Identity Verification,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,15,in_progress
+ISS-02143,AST-00820,SRC-039,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-02163,AST-00829,SRC-057,Case Operations,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,5,open
+ISS-02169,AST-00830,SRC-052,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-02171,AST-00832,SRC-089,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,10,in_progress
+ISS-02172,AST-00832,SRC-089,Case Operations,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Knowledge Manager,10,in_progress
+ISS-02173,AST-00832,SRC-089,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,resolved
+ISS-02174,AST-00832,SRC-089,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,20,open
+ISS-02179,AST-00834,SRC-033,Customer Risk Notes,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,5,blocked
+ISS-02194,AST-00842,SRC-052,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-02206,AST-00847,SRC-087,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,5,in_progress
+ISS-02210,AST-00848,SRC-091,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,15,open
+ISS-02218,AST-00853,SRC-072,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,5,blocked
+ISS-02219,AST-00853,SRC-072,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,blocked
+ISS-02220,AST-00853,SRC-072,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,open
+ISS-02223,AST-00855,SRC-041,Fraud Signals,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,5,in_progress
+ISS-02228,AST-00857,SRC-057,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,resolved
+ISS-02231,AST-00859,SRC-076,Identity Verification,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,10,open
+ISS-02232,AST-00859,SRC-076,Identity Verification,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Data Steward,15,blocked
+ISS-02233,AST-00859,SRC-076,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-02234,AST-00859,SRC-076,Identity Verification,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,5,open
+ISS-02239,AST-00862,SRC-084,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,10,open
+ISS-02240,AST-00862,SRC-084,Sanctions Screening,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,15,open
+ISS-02244,AST-00863,SRC-035,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,resolved
+ISS-02245,AST-00864,SRC-035,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,10,in_progress
+ISS-02246,AST-00864,SRC-035,Compliance Policy,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,10,in_progress
+ISS-02247,AST-00864,SRC-035,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,5,resolved
+ISS-02248,AST-00865,SRC-050,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,10,blocked
+ISS-02249,AST-00865,SRC-050,Sanctions Screening,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,5,in_progress
+ISS-02250,AST-00865,SRC-050,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,5,resolved
+ISS-02251,AST-00865,SRC-050,Sanctions Screening,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-02252,AST-00867,SRC-051,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,10,in_progress
+ISS-02253,AST-00867,SRC-051,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,open
+ISS-02254,AST-00867,SRC-051,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,20,open
+ISS-02255,AST-00867,SRC-051,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,20,open
+ISS-02265,AST-00871,SRC-039,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-02277,AST-00877,SRC-075,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,20,blocked
+ISS-02280,AST-00878,SRC-076,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,5,open
+ISS-02281,AST-00878,SRC-076,Identity Verification,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,15,blocked
+ISS-02282,AST-00878,SRC-076,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,resolved
+ISS-02283,AST-00878,SRC-076,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-02286,AST-00879,SRC-027,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,resolved
+ISS-02287,AST-00880,SRC-010,Sanctions Screening,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,5,open
+ISS-02288,AST-00880,SRC-010,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,blocked
+ISS-02289,AST-00880,SRC-010,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,in_progress
+ISS-02290,AST-00881,SRC-072,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,10,in_progress
+ISS-02291,AST-00881,SRC-072,Identity Verification,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,5,resolved
+ISS-02295,AST-00882,SRC-069,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,blocked
+ISS-02298,AST-00883,SRC-087,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,10,in_progress
+ISS-02311,AST-00890,SRC-009,Customer Risk Notes,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,10,blocked
+ISS-02312,AST-00890,SRC-009,Customer Risk Notes,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,5,in_progress
+ISS-02313,AST-00890,SRC-009,Customer Risk Notes,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,10,in_progress
+ISS-02314,AST-00890,SRC-009,Customer Risk Notes,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,in_progress
+ISS-02315,AST-00890,SRC-009,Customer Risk Notes,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-02319,AST-00891,SRC-052,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,resolved
+ISS-02320,AST-00892,SRC-066,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,15,open
+ISS-02321,AST-00892,SRC-066,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,5,in_progress
+ISS-02322,AST-00892,SRC-066,Case Operations,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Governance Partner,5,open
+ISS-02323,AST-00892,SRC-066,Case Operations,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,20,open
+ISS-02324,AST-00892,SRC-066,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,15,resolved
+ISS-02331,AST-00895,SRC-074,Customer Risk Notes,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,10,in_progress
+ISS-02332,AST-00895,SRC-074,Customer Risk Notes,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Source Owner,10,open
+ISS-02333,AST-00895,SRC-074,Customer Risk Notes,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,5,open
+ISS-02338,AST-00897,SRC-088,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-02342,AST-00899,SRC-039,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-02350,AST-00902,SRC-007,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-02354,AST-00903,SRC-077,Customer Risk Notes,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,resolved
+ISS-02357,AST-00904,SRC-023,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,blocked
+ISS-02380,AST-00915,SRC-025,Compliance Policy,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,5,in_progress
+ISS-02381,AST-00915,SRC-025,Compliance Policy,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,5,open
+ISS-02382,AST-00915,SRC-025,Compliance Policy,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,10,blocked
+ISS-02383,AST-00915,SRC-025,Compliance Policy,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,open
+ISS-02401,AST-00923,SRC-034,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,blocked
+ISS-02403,AST-00924,SRC-066,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,5,in_progress
+ISS-02404,AST-00924,SRC-066,Case Operations,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,10,blocked
+ISS-02405,AST-00924,SRC-066,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-02406,AST-00924,SRC-066,Case Operations,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,15,open
+ISS-02413,AST-00927,SRC-068,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,15,open
+ISS-02422,AST-00931,SRC-081,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,15,open
+ISS-02428,AST-00935,SRC-065,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,10,blocked
+ISS-02429,AST-00935,SRC-065,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,5,resolved
+ISS-02430,AST-00935,SRC-065,Sanctions Screening,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,15,in_progress
+ISS-02431,AST-00935,SRC-065,Sanctions Screening,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,15,in_progress
+ISS-02433,AST-00936,SRC-044,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,5,open
+ISS-02437,AST-00939,SRC-042,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,10,in_progress
+ISS-02445,AST-00943,SRC-032,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,15,open
+ISS-02446,AST-00943,SRC-032,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,resolved
+ISS-02447,AST-00943,SRC-032,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,15,open
+ISS-02463,AST-00951,SRC-071,Business Registry,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,15,in_progress
+ISS-02464,AST-00951,SRC-071,Business Registry,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,10,resolved
+ISS-02465,AST-00951,SRC-071,Business Registry,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,10,blocked
+ISS-02466,AST-00951,SRC-071,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,resolved
+ISS-02470,AST-00953,SRC-075,Sanctions Screening,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,15,in_progress
+ISS-02471,AST-00953,SRC-075,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Data Steward,5,blocked
+ISS-02472,AST-00953,SRC-075,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,5,blocked
+ISS-02473,AST-00954,SRC-013,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,20,resolved
+ISS-02474,AST-00954,SRC-013,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,in_progress
+ISS-02475,AST-00954,SRC-013,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,10,open
+ISS-02479,AST-00957,SRC-081,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,20,blocked
+ISS-02485,AST-00959,SRC-031,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-02501,AST-00966,SRC-004,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,open
+ISS-02508,AST-00969,SRC-085,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,in_progress
+ISS-02509,AST-00970,SRC-009,Customer Risk Notes,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,15,blocked
+ISS-02510,AST-00970,SRC-009,Customer Risk Notes,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,15,open
+ISS-02511,AST-00970,SRC-009,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-02512,AST-00970,SRC-009,Customer Risk Notes,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,5,in_progress
+ISS-02518,AST-00974,SRC-032,Compliance Policy,stale_source,P1,True,160,Refresh or remove stale retrieval source,Knowledge Manager,5,resolved
+ISS-02519,AST-00974,SRC-032,Compliance Policy,metadata_gap,P1,True,160,Complete business description and field dictionary,Knowledge Manager,5,resolved
+ISS-02520,AST-00974,SRC-032,Compliance Policy,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,15,open
+ISS-02521,AST-00974,SRC-032,Compliance Policy,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,15,open
+ISS-02525,AST-00977,SRC-075,Sanctions Screening,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,15,in_progress
+ISS-02526,AST-00977,SRC-075,Sanctions Screening,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,5,open
+ISS-02527,AST-00977,SRC-075,Sanctions Screening,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,15,open
+ISS-02528,AST-00977,SRC-075,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,5,open
+ISS-02529,AST-00977,SRC-075,Sanctions Screening,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,20,open
+ISS-02532,AST-00978,SRC-028,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-02536,AST-00979,SRC-024,Identity Verification,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,20,blocked
+ISS-02541,AST-00980,SRC-016,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,in_progress
+ISS-02552,AST-00984,SRC-080,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,5,in_progress
+ISS-02555,AST-00985,SRC-053,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,20,resolved
+ISS-02563,AST-00987,SRC-068,Device Intelligence,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-02573,AST-00990,SRC-045,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-02582,AST-00993,SRC-077,Customer Risk Notes,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,15,open
+ISS-02588,AST-00996,SRC-012,Business Registry,metadata_gap,P1,False,160,Complete business description and field dictionary,Governance Partner,10,in_progress
+ISS-02589,AST-00996,SRC-012,Business Registry,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,15,open
+ISS-02590,AST-00996,SRC-012,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,10,resolved
+ISS-02591,AST-00996,SRC-012,Business Registry,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-02598,AST-00999,SRC-033,Customer Risk Notes,metadata_gap,P1,False,160,Complete business description and field dictionary,Knowledge Manager,15,in_progress
+ISS-02599,AST-00999,SRC-033,Customer Risk Notes,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Data Steward,5,open
+ISS-02600,AST-00999,SRC-033,Customer Risk Notes,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,10,in_progress
+ISS-02601,AST-00999,SRC-033,Customer Risk Notes,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,15,open
+ISS-02609,AST-01002,SRC-057,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,20,in_progress
+ISS-02615,AST-01004,SRC-073,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,20,in_progress
+ISS-02618,AST-01006,SRC-020,Device Intelligence,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,15,blocked
+ISS-02619,AST-01006,SRC-020,Device Intelligence,semantic_label_gap,P1,False,160,Assign approved retrieval category labels,Data Steward,10,in_progress
+ISS-02620,AST-01006,SRC-020,Device Intelligence,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,20,open
+ISS-02621,AST-01006,SRC-020,Device Intelligence,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,15,in_progress
+ISS-02629,AST-01009,SRC-088,Customer Risk Notes,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,in_progress
+ISS-02635,AST-01012,SRC-007,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,20,blocked
+ISS-02641,AST-01016,SRC-096,Business Registry,stale_source,P1,False,160,Refresh or remove stale retrieval source,Knowledge Manager,10,in_progress
+ISS-02642,AST-01016,SRC-096,Business Registry,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,15,in_progress
+ISS-02643,AST-01016,SRC-096,Business Registry,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,15,open
+ISS-02647,AST-01019,SRC-056,Business Registry,stale_source,P1,True,160,Refresh or remove stale retrieval source,Data Steward,20,open
+ISS-02648,AST-01019,SRC-056,Business Registry,metadata_gap,P1,True,160,Complete business description and field dictionary,Governance Partner,10,resolved
+ISS-02649,AST-01019,SRC-056,Business Registry,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,15,open
+ISS-02650,AST-01019,SRC-056,Business Registry,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-02662,AST-01024,SRC-085,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,in_progress
+ISS-02668,AST-01027,SRC-056,Business Registry,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,15,in_progress
+ISS-02669,AST-01027,SRC-056,Business Registry,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Data Steward,5,in_progress
+ISS-02670,AST-01027,SRC-056,Business Registry,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,15,in_progress
+ISS-02671,AST-01027,SRC-056,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-02673,AST-01029,SRC-020,Device Intelligence,stale_source,P1,False,160,Refresh or remove stale retrieval source,Governance Partner,20,open
+ISS-02674,AST-01029,SRC-020,Device Intelligence,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Knowledge Manager,5,blocked
+ISS-02675,AST-01029,SRC-020,Device Intelligence,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,open
+ISS-02678,AST-01031,SRC-084,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Data Steward,10,open
+ISS-02679,AST-01031,SRC-084,Sanctions Screening,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Governance Partner,10,open
+ISS-02680,AST-01031,SRC-084,Sanctions Screening,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Source Owner,5,open
+ISS-02681,AST-01031,SRC-084,Sanctions Screening,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,5,open
+ISS-02685,AST-01032,SRC-043,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-02698,AST-01037,SRC-079,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,blocked
+ISS-02702,AST-01039,SRC-055,Sanctions Screening,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-02718,AST-01047,SRC-076,Identity Verification,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,15,in_progress
+ISS-02719,AST-01047,SRC-076,Identity Verification,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,in_progress
+ISS-02720,AST-01047,SRC-076,Identity Verification,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,5,in_progress
+ISS-02726,AST-01049,SRC-081,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,in_progress
+ISS-02728,AST-01050,SRC-060,Fraud Signals,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,10,in_progress
+ISS-02729,AST-01050,SRC-060,Fraud Signals,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,10,blocked
+ISS-02730,AST-01050,SRC-060,Fraud Signals,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Knowledge Manager,15,resolved
+ISS-02731,AST-01050,SRC-060,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,5,blocked
+ISS-02732,AST-01050,SRC-060,Fraud Signals,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Data Steward,10,in_progress
+ISS-02736,AST-01051,SRC-077,Customer Risk Notes,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,5,in_progress
+ISS-02741,AST-01053,SRC-051,Identity Verification,metadata_gap,P1,False,160,Complete business description and field dictionary,Data Steward,5,in_progress
+ISS-02745,AST-01055,SRC-089,Case Operations,stale_source,P1,True,160,Refresh or remove stale retrieval source,Governance Partner,10,resolved
+ISS-02746,AST-01055,SRC-089,Case Operations,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Governance Partner,5,open
+ISS-02752,AST-01057,SRC-006,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-02761,AST-01061,SRC-082,Business Registry,metadata_gap,P1,True,160,Complete business description and field dictionary,Source Owner,15,resolved
+ISS-02762,AST-01061,SRC-082,Business Registry,semantic_label_gap,P1,True,160,Assign approved retrieval category labels,Data Steward,15,in_progress
+ISS-02763,AST-01061,SRC-082,Business Registry,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Governance Partner,5,in_progress
+ISS-02764,AST-01061,SRC-082,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,15,open
+ISS-02767,AST-01062,SRC-030,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-02769,AST-01063,SRC-033,Customer Risk Notes,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,15,open
+ISS-02770,AST-01063,SRC-033,Customer Risk Notes,lineage_owner_gap,P1,False,160,Document owner and upstream lineage,Source Owner,10,in_progress
+ISS-02771,AST-01063,SRC-033,Customer Risk Notes,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,10,in_progress
+ISS-02772,AST-01063,SRC-033,Customer Risk Notes,retrieval_ambiguity,P1,False,160,Rewrite or split asset to reduce ambiguous retrieval context,Knowledge Manager,5,open
+ISS-02773,AST-01064,SRC-092,Fraud Signals,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,5,open
+ISS-02774,AST-01064,SRC-092,Fraud Signals,metadata_gap,P1,True,160,Complete business description and field dictionary,Data Steward,15,in_progress
+ISS-02775,AST-01064,SRC-092,Fraud Signals,lineage_owner_gap,P1,True,160,Document owner and upstream lineage,Source Owner,10,open
+ISS-02776,AST-01064,SRC-092,Fraud Signals,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,5,open
+ISS-02785,AST-01068,SRC-069,Sanctions Screening,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,5,in_progress
+ISS-02789,AST-01069,SRC-047,Compliance Policy,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,in_progress
+ISS-02793,AST-01071,SRC-057,Case Operations,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,in_progress
+ISS-02800,AST-01073,SRC-053,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-02804,AST-01074,SRC-052,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Knowledge Manager,10,open
+ISS-02811,AST-01076,SRC-044,Compliance Policy,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Governance Partner,10,in_progress
+ISS-02820,AST-01081,SRC-029,Business Registry,governance_gap,P1,False,160,"Resolve classification, access, or retention exception",Data Steward,10,open
+ISS-02822,AST-01082,SRC-082,Business Registry,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,5,in_progress
+ISS-02823,AST-01082,SRC-082,Business Registry,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Governance Partner,10,open
+ISS-02824,AST-01082,SRC-082,Business Registry,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Source Owner,5,open
+ISS-02833,AST-01087,SRC-015,Fraud Signals,governance_gap,P1,True,160,"Resolve classification, access, or retention exception",Source Owner,10,open
+ISS-02845,AST-01093,SRC-041,Fraud Signals,stale_source,P1,True,160,Refresh or remove stale retrieval source,Source Owner,15,open
+ISS-02847,AST-01093,SRC-041,Fraud Signals,retrieval_ambiguity,P1,True,160,Rewrite or split asset to reduce ambiguous retrieval context,Governance Partner,10,open
+ISS-02851,AST-01095,SRC-065,Sanctions Screening,stale_source,P1,False,160,Refresh or remove stale retrieval source,Knowledge Manager,5,open
+ISS-02852,AST-01095,SRC-065,Sanctions Screening,metadata_gap,P1,False,160,Complete business description and field dictionary,Source Owner,10,open
