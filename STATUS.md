@@ -23,10 +23,12 @@ python3 scripts/generate_ai_readiness_lab.py
 
 ## Validation
 
-Project artifact validation is expected to be run from the parent workflow repository with:
+Project artifact validation passed from the parent workflow repository with:
 
 ```bash
-node scripts/validate_project_artifact.js outputs/projects/AI-Retrieval-Readiness-Governance-Lab outputs/jobs/relx-ai-data-analyst
+node scripts/validate_project_artifact.js https://github.com/Saurav-Kanegaonkar/AI-Retrieval-Readiness-Governance-Lab outputs/jobs/relx-ai-data-analyst
 ```
 
-The validation report is written to the job folder by the orchestrator validator.
+Result: PASS.
+
+GitHub repository: https://github.com/Saurav-Kanegaonkar/AI-Retrieval-Readiness-Governance-Lab
